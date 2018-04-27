@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BSVICROIDAL
+</name>
+</assembly>
+<members>
+<member name="M:BSVICROIDAL.cDataClass.ExportCSVFileInDatabase(System.Collections.ArrayList,System.String,System.String)">
+	<summary>
+ Used to make query by passing data in arrayList, table name and column name.
+ </summary>
+	<param name="alstColumnValue">csv file data in Array list</param>
+	<param name="strDBColumnName">Column name for table, used to insert data.</param>
+	<param name="strTableName">table name, used to insert data.</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

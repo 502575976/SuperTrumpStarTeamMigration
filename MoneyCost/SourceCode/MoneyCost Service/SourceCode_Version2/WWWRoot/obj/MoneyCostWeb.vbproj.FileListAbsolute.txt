@@ -1,0 +1,80 @@
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.xml
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.xml
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.xml
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.xml
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\MoneyCostWeb.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\MoneyCostWeb.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\MoneyCostWeb.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\MoneyCostWeb.xml
+D:\GE GDC Working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\x86\Debug\MoneyCostWeb.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.xml
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\Oracle.DataAccess.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.xml
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\ResolveAssemblyReference.cache
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.Resources.resources
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.vbproj.GenerateResource.Cache
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.xml
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.pdb
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\ResolveAssemblyReference.cache
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.Resources.resources
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.vbproj.GenerateResource.Cache
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.dll
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.xml
+E:\GDC working Folder\pulak.mishra\Pricing\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\MoneyCostWeb.xml
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\Oracle.DataAccess.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostDL.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostEntity.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSMoneyCostBL.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\bin\BSDBAdapter.xml
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\ResolveAssemblyReference.cache
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.Resources.resources
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.vbproj.GenerateResource.Cache
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.xml
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Release\MoneyCostWeb.pdb
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\ResolveAssemblyReference.cache
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.Resources.resources
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.vbproj.GenerateResource.Cache
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.dll
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.xml
+E:\GE GDC Working Folder\sumit2.sharma\StarTeam\MoneyCost\User Interface\wwwroot\obj\Debug\MoneyCostWeb.pdb

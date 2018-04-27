@@ -1,0 +1,41 @@
+<WSDLGenConfig WSDLGenVersion="3.0" serviceName="BSCEFSuperTrumpDev" COMObjectPath="d:\eFile\BSCEFSuperTrump\BSCEFSuperTrump.dll" listenerURI="http://dmts1websvc.cef.capital.ge.com/BSCEFSuperTrump/" listenerType="ASP" XSDSchemaNS="2001" definitionsTNS="http://tempuri.org/wsdl/" schemaTNS="http://tempuri.org/type/" soapBodyNS="http://tempuri.org/message/" soapActionURI="http://tempuri.org/action/" characterSet="UTF-8" outputPath="d:\eFile\BSCEFSuperTrump\WebServices" >
+   <selectedInterfaces>
+      <interface name="IClientService">
+         <selectedMethods>
+            <method name="Ping">
+            </method>
+            <method name="ProcessPricingRequest">
+            </method>
+            <method name="ProcessMQMessage">
+            </method>
+         </selectedMethods>
+      </interface>
+      <interface name="ISuperTrumpService">
+         <selectedMethods>
+            <method name="RunAdHocXMLInOutQuery">
+            </method>
+            <method name="GeneratePRMFilesForPmtStruct2">
+            </method>
+            <method name="GeneratePRMFilesForPmtStruct">
+            </method>
+            <method name="ModifyPRMFiles">
+            </method>
+            <method name="GetAmortizationSchedule">
+            </method>
+            <method name="GetPRMParams">
+            </method>
+            <method name="GeneratePRMFiles">
+            </method>
+            <method name="Test">
+            </method>
+            <method name="Ping">
+            </method>
+            <method name="GetPricingReports">
+            </method>
+            <method name="ConvertPRMToXML">
+            </method>
+         </selectedMethods>
+      </interface>
+   </selectedInterfaces>
+</WSDLGenConfig>
+

@@ -1,0 +1,9 @@
+C:\StarTeam\BSVICROI\BSVICROIEntity\bin\Debug\BSVICROIEntity.dll
+C:\StarTeam\BSVICROI\BSVICROIEntity\bin\Debug\BSVICROIEntity.pdb
+C:\StarTeam\BSVICROI\BSVICROIEntity\bin\Debug\BSVICROIEntity.xml
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\ResolveAssemblyReference.cache
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\BSVICROIEntity.Resources.resources
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\BSVICROIEntity.vbproj.GenerateResource.Cache
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\BSVICROIEntity.dll
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\BSVICROIEntity.xml
+C:\StarTeam\BSVICROI\BSVICROIEntity\obj\Debug\BSVICROIEntity.pdb

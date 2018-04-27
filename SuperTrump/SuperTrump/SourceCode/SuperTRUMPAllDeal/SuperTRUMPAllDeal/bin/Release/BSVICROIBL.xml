@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BSVICROIBL
+</name>
+</assembly>
+<members>
+<member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.#ctor">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.PingCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessMQMessageCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessPricingRequestCompleted">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.Ping">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.PingAsync">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.PingAsync(System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessMQMessage(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessMQMessageAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessMQMessageAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessPricingRequest(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessPricingRequestAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.ProcessPricingRequestAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.IClientServiceSoapPort">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.#ctor">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ConvertPRMToXMLCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetAmortizationScheduleCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPricingReportsCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPRMParamsCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ModifyPRMFilesCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.TestCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.RunAdHocXMLInOutQueryCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStructCompleted">
+	<remarks/>
+</member><member name="E:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStruct2Completed">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ConvertPRMToXML(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ConvertPRMToXMLAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ConvertPRMToXMLAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFiles(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetAmortizationSchedule(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetAmortizationScheduleAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetAmortizationScheduleAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPricingReports(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPricingReportsAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPricingReportsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPRMParams(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPRMParamsAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GetPRMParamsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ModifyPRMFiles(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ModifyPRMFilesAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.ModifyPRMFilesAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.Test">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.TestAsync">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.TestAsync(System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.RunAdHocXMLInOutQuery(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.RunAdHocXMLInOutQueryAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.RunAdHocXMLInOutQueryAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStruct(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStructAsync(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStructAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStruct2(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStruct2Async(System.String)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.GeneratePRMFilesForPmtStruct2Async(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ISuperTrumpServiceSoapPort">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.PingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.PingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.PingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ProcessMQMessageCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.ProcessMQMessageCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ProcessMQMessageCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ProcessPricingRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.ProcessPricingRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ProcessPricingRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ConvertPRMToXMLCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.ConvertPRMToXMLCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ConvertPRMToXMLCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetAmortizationScheduleCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GetAmortizationScheduleCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetAmortizationScheduleCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetPricingReportsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GetPricingReportsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetPricingReportsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetPRMParamsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GetPRMParamsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GetPRMParamsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ModifyPRMFilesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.ModifyPRMFilesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.ModifyPRMFilesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.TestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.TestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.TestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.RunAdHocXMLInOutQueryCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.RunAdHocXMLInOutQueryCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.RunAdHocXMLInOutQueryCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStructCompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStructCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStructCompletedEventArgs">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStruct2CompletedEventHandler">
+	<remarks/>
+</member><member name="P:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStruct2CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:BSVICROIBL.SuperTRUMPService.GeneratePRMFilesForPmtStruct2CompletedEventArgs">
+	<remarks/>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.ExportDATFileDataInDatabase">
+	<summary>
+ Used to export DAT file data into database *****
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.GetAmountForSchedulerNumber(System.Collections.ArrayList)">
+	<summary>
+ Used to get a arraylist having data(Month, no of occurrance, Amount) with Account Schedule Number *****
+ </summary>
+	<param name="objAList"></param>
+	<returns>Arraylist having data(Month, no of occurrance, Amount) with Account Schedule Number</returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.GetDATFileDataInArrayList(System.String)">
+	<summary>
+ Used to get DAT file data into array list by passing DAT file name as a parameter *****
+ </summary>
+	<param name="strDATFilename"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.SendNotificationByMail(System.String,System.Boolean)">
+	<summary>
+ Used to send the notification mail
+ </summary>
+	<param name="strBody"></param>
+	<param name="boolAttachmentRequired"></param>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.GetFTPInputFiles">
+	<summary>
+ Used to Get Input Files from FTP *****
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.CheckFileExistance(System.String[],System.String)">
+	<summary>
+ Used to check the existance of file at desired location
+ </summary>
+	<param name="arrFilesAll"></param>
+	<param name="strFileName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.CheckSuperTrumpExceptions(System.Xml.XmlDocument@)">
+	<summary>
+ Used to check the Exceptions in XML comming from SuperTRUMP web services
+ </summary>
+	<param name="aobjSTXMLDoc"></param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

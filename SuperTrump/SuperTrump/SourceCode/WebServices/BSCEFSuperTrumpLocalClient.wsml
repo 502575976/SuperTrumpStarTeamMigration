@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+ <!-- Generated 05/02/06 by Microsoft SOAP Toolkit WSDL File Generator, Version 3.00.1325.0 --> 
+  <servicemapping name='BSCEFSuperTrumpLocal' xmlns:dime='http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/'>
+  <service name='BSCEFSuperTrumpLocal'>
+  </service>
+</servicemapping>
+ 

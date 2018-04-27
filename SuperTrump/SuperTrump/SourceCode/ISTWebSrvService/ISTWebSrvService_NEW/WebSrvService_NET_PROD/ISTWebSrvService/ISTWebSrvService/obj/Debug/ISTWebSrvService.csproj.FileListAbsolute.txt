@@ -1,0 +1,5 @@
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET_PROD\ISTWebSrvService\ISTWebSrvService\bin\Debug\ISTWebSrvService.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET_PROD\ISTWebSrvService\ISTWebSrvService\bin\Debug\ISTWebSrvService.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET_PROD\ISTWebSrvService\ISTWebSrvService\obj\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET_PROD\ISTWebSrvService\ISTWebSrvService\obj\Debug\ISTWebSrvService.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET_PROD\ISTWebSrvService\ISTWebSrvService\obj\Debug\ISTWebSrvService.pdb

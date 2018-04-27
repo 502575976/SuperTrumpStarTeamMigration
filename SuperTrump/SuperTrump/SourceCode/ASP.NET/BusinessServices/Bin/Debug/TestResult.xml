@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\SuperTrumpNewCode\BusinessServices\bin\Debug\SupertrumpService.BusinessServices.dll" total="1" failures="1" not-run="0" date="2008-07-03" time="18:02:37">
+  <environment nunit-version="2.4.7.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="D:\SuperTrumpNewCode\BusinessServices\bin\Debug" machine-name="BSLGDC-FI373" user="sanjay.srivastava" user-domain="BSLGDCNOD1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="D:\SuperTrumpNewCode\BusinessServices\bin\Debug\SupertrumpService.BusinessServices.dll" success="False" time="0.453" asserts="0">
+    <results>
+      <test-suite name="SupertrumpService" success="False" time="0.453" asserts="0">
+        <results>
+          <test-suite name="BusinessServices" success="False" time="0.453" asserts="0">
+            <results>
+              <test-suite name="ISuperTrumpServiceTestCase" success="False" time="0.391" asserts="0">
+                <results>
+                  <test-case name="SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGetPricingReports" executed="True" success="False" time="0.359" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.IO.DirectoryNotFoundException : Could not find a part of the path 'D:\SuperTrumpNewCode\BusinessServices\bin\Debug\XML_IN\GetPricingReportstest.xml'.]]></message>
+                      <stack-trace><![CDATA[at SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGetPricingReports() in D:\SuperTrumpNewCode\BusinessServices\ISuperTrumpServiceTestCase.vb:line 66
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

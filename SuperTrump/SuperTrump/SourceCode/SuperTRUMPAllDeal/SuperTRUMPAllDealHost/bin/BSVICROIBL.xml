@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BSVICROIBL
+</name>
+</assembly>
+<members>
+<member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.ExportCSVFileDataInDatabase">
+	<summary>
+ Used to export csv file data into database
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.GetAmountForSchedulerNumber(System.Collections.ArrayList)">
+	<summary>
+ Used to get a arraylist having data(Month, no of occurrance, Amount) with Account Schedule Number
+ </summary>
+	<param name="objAList"></param>
+	<returns>Arraylist having data(Month, no of occurrance, Amount) with Account Schedule Number</returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.GetCSVFileDataInArrayList(System.String)">
+	<summary>
+ Used to get csv file data into array list by passing csv file name as a parameter
+ </summary>
+	<param name="strCSVFilename">csvfile name with path.</param>
+	<returns>array list</returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.ReadConfigurationFileValue(System.String)">
+	<summary>
+ Used to get configuration file entry for corresponding tagname, pass as a parameter.
+ </summary>
+	<param name="strTagName">Tag Name</param>
+	<returns>string</returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIBL.BSVICROIBL.cSTForAllDealsBLMGR.ReadRegistry(System.String)">
+	<summary>
+ Used to read registry
+ </summary>
+	<param name="astrRegFullKeyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

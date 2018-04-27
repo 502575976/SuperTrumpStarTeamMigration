@@ -1,0 +1,44 @@
+===========================Old DEV Server=======================================
+http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+
+http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/BSCEFSupertrump.wsdl
+
+http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPWebServiceTest/STPerTest.aspx
+
+=============================================================================
+
+===========================New DEV Server=======================================
+http://CMFALGADMTCM1V.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+
+http://CMFALGADMTCM1V.comfin.ge.com/BSCEFSuperTRUMPNET/BSCEFSupertrump.wsdl
+
+http://CMFALGADMTCM1V.comfin.ge.com/BSCEFSuperTRUMPWebServiceTest/STPerTest.aspx
+
+http://stwebservicetest.DEV.comfin.ge.com/STPerTest.aspx
+
+=============================================================================
+
+
+===========================Old QA Server=======================================
+http://ceficeclusterqc.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+
+http://ceficeclusterqc.comfin.ge.com/BSCEFSuperTRUMPNET/BSCEFSupertrump.wsdl
+
+http://supertrump.web.qa.comfin.ge.com/BSCEFSupertrumpNET/BSCEFSupertrump.wsdl
+
+http://ceficeclusterqc.comfin.ge.com/BSCEFSuperTRUMPWebServiceTest/STPerTest.aspx
+
+=============================================================================
+
+
+
+===========================New QA Server=======================================
+http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+
+http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/BSCEFSupertrump.wsdl
+
+http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPWebServiceTest/STPerTest.aspx
+
+http://stwebservicetest.QA.comfin.ge.com/STPerTest.aspx
+
+=============================================================================

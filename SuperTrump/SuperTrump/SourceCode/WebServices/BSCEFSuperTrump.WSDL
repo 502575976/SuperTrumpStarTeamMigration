@@ -1,0 +1,461 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- Generated 11/02/05 by Microsoft SOAP Toolkit WSDL File Generator, Version 3.00.1325.0 --> 
+<definitions
+	name='BSCEFSuperTrump'
+	targetNamespace='http://tempuri.org/wsdl/'
+	xmlns:wsdlns='http://tempuri.org/wsdl/'
+	xmlns:typens='http://tempuri.org/type/'
+	xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+	xmlns:stk='http://schemas.microsoft.com/soap-toolkit/wsdl-extension'
+	xmlns:dime='http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/'
+	xmlns:ref='http://schemas.xmlsoap.org/ws/2002/04/reference/'
+	xmlns:content='http://schemas.xmlsoap.org/ws/2002/04/content-type/'
+	xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+	xmlns='http://schemas.xmlsoap.org/wsdl/'>
+
+	<types>
+		<schema
+			targetNamespace='http://tempuri.org/type/'
+			xmlns='http://www.w3.org/2001/XMLSchema'
+			xmlns:SOAP-ENC='http://schemas.xmlsoap.org/soap/encoding/'
+			xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+			elementFormDefault='qualified'>
+
+			<import namespace='http://schemas.xmlsoap.org/soap/encoding/'/>
+			<import namespace='http://schemas.xmlsoap.org/wsdl/'/>
+			<import namespace='http://schemas.xmlsoap.org/ws/2002/04/reference/'/>
+			<import namespace='http://schemas.xmlsoap.org/ws/2002/04/content-type/'/>
+
+		</schema>
+	</types>
+
+	<message name='ISuperTrumpService.ConvertPRMToXML'>
+		<part name='astrPRMFileListXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.ConvertPRMToXMLResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetPricingReports'>
+		<part name='astrPricingRepInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetPricingReportsResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.Ping'>
+	</message>
+
+	<message name='ISuperTrumpService.PingResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.Test'>
+	</message>
+
+	<message name='ISuperTrumpService.TestResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFiles'>
+		<part name='astrPRMInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFilesResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetPRMParams'>
+		<part name='astrPRMParamsInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetPRMParamsResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetAmortizationSchedule'>
+		<part name='astrPRMFileListXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GetAmortizationScheduleResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.ModifyPRMFiles'>
+		<part name='astrModifyPRMFilesXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.ModifyPRMFilesResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFilesForPmtStruct'>
+		<part name='astrPRMInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFilesForPmtStructResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFilesForPmtStruct2'>
+		<part name='astrPRMInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='ISuperTrumpService.GeneratePRMFilesForPmtStruct2Response'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='IClientService.ProcessMQMessage'>
+		<part name='astrMQMsgInfoXML' type='xsd:string'/>
+	</message>
+
+	<message name='IClientService.ProcessMQMessageResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='IClientService.ProcessPricingRequest'>
+		<part name='astrPricingRequestXML' type='xsd:string'/>
+	</message>
+
+	<message name='IClientService.ProcessPricingRequestResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<message name='IClientService.Ping'>
+	</message>
+
+	<message name='IClientService.PingResponse'>
+		<part name='Result' type='xsd:string'/>
+	</message>
+
+	<portType name='ISuperTrumpServiceSoapPort'>
+
+		<operation name='ConvertPRMToXML' parameterOrder='astrPRMFileListXML'>
+			<input message='wsdlns:ISuperTrumpService.ConvertPRMToXML'/>
+			<output message='wsdlns:ISuperTrumpService.ConvertPRMToXMLResponse'/>
+		</operation>
+
+		<operation name='GetPricingReports' parameterOrder='astrPricingRepInfoXML'>
+			<input message='wsdlns:ISuperTrumpService.GetPricingReports'/>
+			<output message='wsdlns:ISuperTrumpService.GetPricingReportsResponse'/>
+		</operation>
+
+		<operation name='Ping' parameterOrder=''>
+			<input message='wsdlns:ISuperTrumpService.Ping'/>
+			<output message='wsdlns:ISuperTrumpService.PingResponse'/>
+		</operation>
+
+		<operation name='Test' parameterOrder=''>
+			<input message='wsdlns:ISuperTrumpService.Test'/>
+			<output message='wsdlns:ISuperTrumpService.TestResponse'/>
+		</operation>
+
+		<operation name='GeneratePRMFiles' parameterOrder='astrPRMInfoXML'>
+			<input message='wsdlns:ISuperTrumpService.GeneratePRMFiles'/>
+			<output message='wsdlns:ISuperTrumpService.GeneratePRMFilesResponse'/>
+		</operation>
+
+		<operation name='GetPRMParams' parameterOrder='astrPRMParamsInfoXML'>
+			<input message='wsdlns:ISuperTrumpService.GetPRMParams'/>
+			<output message='wsdlns:ISuperTrumpService.GetPRMParamsResponse'/>
+		</operation>
+
+		<operation name='GetAmortizationSchedule' parameterOrder='astrPRMFileListXML'>
+			<input message='wsdlns:ISuperTrumpService.GetAmortizationSchedule'/>
+			<output message='wsdlns:ISuperTrumpService.GetAmortizationScheduleResponse'/>
+		</operation>
+
+		<operation name='ModifyPRMFiles' parameterOrder='astrModifyPRMFilesXML'>
+			<input message='wsdlns:ISuperTrumpService.ModifyPRMFiles'/>
+			<output message='wsdlns:ISuperTrumpService.ModifyPRMFilesResponse'/>
+		</operation>
+
+		<operation name='GeneratePRMFilesForPmtStruct' parameterOrder='astrPRMInfoXML'>
+			<input message='wsdlns:ISuperTrumpService.GeneratePRMFilesForPmtStruct'/>
+			<output message='wsdlns:ISuperTrumpService.GeneratePRMFilesForPmtStructResponse'/>
+		</operation>
+
+		<operation name='GeneratePRMFilesForPmtStruct2' parameterOrder='astrPRMInfoXML'>
+			<input message='wsdlns:ISuperTrumpService.GeneratePRMFilesForPmtStruct2'/>
+			<output message='wsdlns:ISuperTrumpService.GeneratePRMFilesForPmtStruct2Response'/>
+		</operation>
+
+	</portType>
+
+	<portType name='IClientServiceSoapPort'>
+
+		<operation name='ProcessMQMessage' parameterOrder='astrMQMsgInfoXML'>
+			<input message='wsdlns:IClientService.ProcessMQMessage'/>
+			<output message='wsdlns:IClientService.ProcessMQMessageResponse'/>
+		</operation>
+
+		<operation name='ProcessPricingRequest' parameterOrder='astrPricingRequestXML'>
+			<input message='wsdlns:IClientService.ProcessPricingRequest'/>
+			<output message='wsdlns:IClientService.ProcessPricingRequestResponse'/>
+		</operation>
+
+		<operation name='Ping' parameterOrder=''>
+			<input message='wsdlns:IClientService.Ping'/>
+			<output message='wsdlns:IClientService.PingResponse'/>
+		</operation>
+
+	</portType>
+
+	<binding name='ISuperTrumpServiceSoapBinding' type='wsdlns:ISuperTrumpServiceSoapPort' >
+
+		<stk:binding preferredEncoding='UTF-8'/>
+		<soap:binding style='rpc' transport='http://schemas.xmlsoap.org/soap/http'/>
+
+		<operation name='ConvertPRMToXML'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.ConvertPRMToXML'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMFileListXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GetPricingReports'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GetPricingReports'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPricingRepInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='Ping'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.Ping'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='Test'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.Test'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GeneratePRMFiles'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GeneratePRMFiles'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GetPRMParams'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GetPRMParams'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMParamsInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GetAmortizationSchedule'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GetAmortizationSchedule'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMFileListXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='ModifyPRMFiles'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.ModifyPRMFiles'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrModifyPRMFilesXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GeneratePRMFilesForPmtStruct'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GeneratePRMFilesForPmtStruct'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='GeneratePRMFilesForPmtStruct2'>
+			<soap:operation soapAction='http://tempuri.org/action/ISuperTrumpService.GeneratePRMFilesForPmtStruct2'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPRMInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+	</binding>
+
+	<binding name='IClientServiceSoapBinding' type='wsdlns:IClientServiceSoapPort' >
+
+		<stk:binding preferredEncoding='UTF-8'/>
+		<soap:binding style='rpc' transport='http://schemas.xmlsoap.org/soap/http'/>
+
+		<operation name='ProcessMQMessage'>
+			<soap:operation soapAction='http://tempuri.org/action/IClientService.ProcessMQMessage'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrMQMsgInfoXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='ProcessPricingRequest'>
+			<soap:operation soapAction='http://tempuri.org/action/IClientService.ProcessPricingRequest'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='astrPricingRequestXML'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+		<operation name='Ping'>
+			<soap:operation soapAction='http://tempuri.org/action/IClientService.Ping'/>
+			<input>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+			</input>
+			<output>
+				<soap:body
+					use='encoded'
+					namespace='http://tempuri.org/message/'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'
+					parts='Result'/>
+			</output>
+		</operation>
+
+	</binding>
+
+	<service name='BSCEFSuperTrump' >
+		<port name='ISuperTrumpServiceSoapPort' binding='wsdlns:ISuperTrumpServiceSoapBinding' >
+			<soap:address location='http://pmts2websvc.cef.capital.ge.com/BSCEFSuperTrump/BSCEFSuperTrump.ASP'/>
+		</port>
+		<port name='IClientServiceSoapPort' binding='wsdlns:IClientServiceSoapBinding' >
+			<soap:address location='http://pmts2websvc.cef.capital.ge.com/BSCEFSuperTrump/BSCEFSuperTrump.ASP'/>
+		</port>
+	</service>
+
+</definitions>

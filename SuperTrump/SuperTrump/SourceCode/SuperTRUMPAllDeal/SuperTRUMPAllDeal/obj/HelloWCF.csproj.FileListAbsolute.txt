@@ -1,0 +1,15 @@
+D:\Garima WCF Training\HelloWCF\HelloWCF\obj\Debug\ResolveAssemblyReference.cache
+D:\Garima WCF Training\HelloWCF\HelloWCF\bin\Debug\HelloWCF.dll
+D:\Garima WCF Training\HelloWCF\HelloWCF\bin\Debug\HelloWCF.pdb
+D:\Garima WCF Training\HelloWCF\HelloWCF\obj\Debug\HelloWCF.dll
+D:\Garima WCF Training\HelloWCF\HelloWCF\obj\Debug\HelloWCF.pdb
+D:\WCF\HelloWCF\HelloWCF\bin\Debug\HelloWCF.dll
+D:\WCF\HelloWCF\HelloWCF\bin\Debug\HelloWCF.pdb
+D:\WCF\HelloWCF\HelloWCF\obj\Debug\ResolveAssemblyReference.cache
+D:\WCF\HelloWCF\HelloWCF\obj\Debug\HelloWCF.dll
+D:\WCF\HelloWCF\HelloWCF\obj\Debug\HelloWCF.pdb
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\HelloWCF\bin\Debug\HelloWCF.dll
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\HelloWCF\bin\Debug\HelloWCF.pdb
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\HelloWCF\obj\Debug\ResolveAssemblyReference.cache
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\HelloWCF\obj\Debug\HelloWCF.dll
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\HelloWCF\obj\Debug\HelloWCF.pdb

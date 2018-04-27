@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx?wsdl" filename="SupertrumpService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx?disco" filename="SupertrumpService.disco" />
+  </Results>
+</DiscoveryClientResultsFile>

@@ -1,0 +1,17 @@
+Depreciation_Type	Method
+2	DB 150
+5	"Str line, to end"
+8	None
+10	Feed from Stream 17
+11	ACRS 5 yr
+12	Pickle
+16	None
+17	n/a
+18	#REF!
+33	"Str line, to end"
+91	"MACRS (with ""Additional 1st year %"" of 30%)"
+92	"DB 150 (with ""Additional 1st year %"" of 30%)"
+93	"Str line, to end (with ""Additional 1st year %"" of 30%)"
+94	"MACRS (with ""Additional 1st year %"" of 50%)"
+95	"DB 150 (with ""Additional 1st year %"" of 50%)"
+96	"Str line, to end (with ""Additional 1st year %"" of 50%)"

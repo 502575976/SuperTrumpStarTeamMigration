@@ -1,0 +1,191 @@
+
+CREATE TABLE VIC_ROI.TBL_RESIDUAL_MAPPING
+(
+  PROGRAM             VARCHAR2(100 BYTE),
+  PRODUCT             VARCHAR2(100 BYTE),
+  TERM                VARCHAR2(100 BYTE),
+  DEAL_SIZE           VARCHAR2(100 BYTE),
+  CAP_MARKET_ADDER    NUMBER(6,3),
+  TERM_OPERATOR       VARCHAR2(20 BYTE),
+  DEAL_SIZE_OPERATOR  VARCHAR2(20 BYTE)
+)
+TABLESPACE VIC_DATA
+PCTUSED    40
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            FREELISTS        1
+            FREELIST GROUPS  1
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '<', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 66.2, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '<', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 66.2, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '<', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '0', '0', 0, 
+    '=', '=');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '0', '0', 0, 
+    '=', '=');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Lease', '36', '50000', 0, 
+    '<', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 66.2, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Quasi', '36', '50000', 0, 
+    '<', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '>', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 66.2, 
+    '>', '>');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '<', '<');
+Insert into VIC_ROI.TBL_RESIDUAL_MAPPING
+   (PROGRAM, PRODUCT, TERM, DEAL_SIZE, CAP_MARKET_ADDER, 
+    TERM_OPERATOR, DEAL_SIZE_OPERATOR)
+ Values
+   ('Construction', 'Loan', '36', '50000', 0, 
+    '<', '>');
+COMMIT;
+

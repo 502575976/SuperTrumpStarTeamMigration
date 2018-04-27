@@ -1,0 +1,56 @@
+Servers:-cmfalgaqmtcm1v,cmfalgaqmtcm2v
+
+Note:-Please Execute on both the servers.
+
+Component Deployment
+
+1. Open COM+ package "BSCEFSupertrumpNET" and shut down it by right click over it
+2. Delete below components on COM+ package "BSCEFSupertrumpNET" 
+	2.1 SupertrumpService.BusinessServices.IClientService
+	2.2 SupertrumpService.BusinessServices.ISuperTrumpService
+3. Rename "Components_NET" folder on E:\InternalSites\SuperTrump to "Components_NET_Date.
+4. Copy "Components_NET" folder from E:\InternalSites\SuperTrump\Deployment of server "CEFALGADMTCM1V" to E:\InternalSites\SuperTrump.
+5. Open Assembly from C drive and uninstall compoment "SupertrumpService.BusinessServices" by right click on that compoment.
+6. run command file "RegistesCom.cmd" from E:\InternalSites\SuperTrump\Components_NET\DeploymentCommand.
+7. Please ensure the below componet on COM+ Package "BSCEFSupertrumpNET" 
+	7.1 SupertrumpService.BusinessServices.IClientService
+	7.2 SupertrumpService.BusinessServices.ISuperTrumpService
+8. Please ensure "SupertrumpService.BusinessServices" component on Assembly.
+
+
+In case of "RegistesCom.cmd" gives any error 
+
+1. Right click on Component to package "BSCEFSupertrumpNET" and click on New component
+2. Click Next and then select Install New Components.
+3. Click Add to add SupertrumpService.BusinessServices.dll from location E:\InternalSites\SuperTrump\Components_NET\bin.
+4. Please ensure below two components should be visible
+	4.1 SupertrumpService.BusinessServices.IClientService
+	4.2 SupertrumpService.BusinessServices.ISuperTrumpService
+5. Click Next and then Finish.
+6. Open Assembly and drag and drop upertrumpService.BusinessServices.dll and make sure it should be available on Assembly now.
+
+
+Web Service Deployment
+
+1. Please reset IIS
+2. Please delete folder "bscefsupertrumpnet" from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files
+3. Please rename Folder "wwwroot_NET" on E:\InternalSites\BSCEFSuperTrump to "wwwroot_NET_Date" 
+4. Copy "wwwroot_NET" folder from E:\InternalSites\SuperTrump\Deployment of server "CEFALGADMTCM1V" to E:\InternalSites\BSCEFSuperTrump.
+5. Please check if Folder "SuperTRUMP" exists on D:\LogFiles. If not, please create it.
+6. Please reset IIS.
+
+
+
+
+Deployment of SuperTRUMP Web Service Test page
+
+Please execute on both QA server cmfalgaqmtcm1v,cmfalgaqmtcm2v
+
+1. Please copy "BSCEFSuperTRUMPWebServiceTest" folder from \\CEFALGADMTCM1V.comfin.ge.com\InternalSites\SuperTrump\Deployment on 
+E:\InternalSites\BSCEFSuperTrump
+
+2. Please create a virtual directory with name "BSCEFSuperTRUMPWebServiceTest" and map with E:\InternalSites\BSCEFSuperTrump\BSCEFSuperTRUMPWebServiceTest
+
+3. Please setup a startup page "STPerTest.aspx"
+
+4. Please reset IIS

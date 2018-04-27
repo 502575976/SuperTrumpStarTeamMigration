@@ -1,0 +1,4 @@
+2013-04-15 12:56:53,825 DEBUG  SuperTRUMP[Ping:25] - Start: Ping Method
+2013-04-15 12:56:55,681 DEBUG  SuperTRUMP[Ping:26] - End: Ping Method
+2013-04-15 12:56:56,576 DEBUG  SuperTRUMP[Ping:2805] - ProcessId:3284 ThreadId:3364 BSSuperTrump.ISuperTrumpService_Ping(): In Ping() method
+2013-04-15 12:56:56,676 DEBUG  SuperTRUMP[Ping:2806] - ProcessId:3284 ThreadId:3364  Ping Synclock End here

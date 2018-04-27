@@ -1,0 +1,486 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MoneyCostWeb
+</name>
+</assembly>
+<members>
+<member name="F:MoneyCostWeb.UpdateDetails.frmMoneyCost">
+	<summary>
+frmMoneyCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.Top1">
+	<summary>
+Top1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.lblErrorMessage">
+	<summary>
+lblErrorMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.hSSOId">
+	<summary>
+hSSOId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.cmbMoneyCostFiles">
+	<summary>
+cmbMoneyCostFiles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.tblApplyAll">
+	<summary>
+tblApplyAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.txtAdderRateCommon">
+	<summary>
+txtAdderRateCommon control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.txtEffectiveDateCommon">
+	<summary>
+txtEffectiveDateCommon control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.btnSaveAll">
+	<summary>
+btnSaveAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.lblNoMCDetail">
+	<summary>
+lblNoMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.tblIndexRate">
+	<summary>
+tblIndexRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.lblTableHeder">
+	<summary>
+lblTableHeder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.grdMCDetail">
+	<summary>
+grdMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.tblButtons">
+	<summary>
+tblButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateDetails.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MoneyCostWeb.UpdateDetails">
+	<summary>
+UpdateDetails class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:MoneyCostWeb.Top.Img1">
+	<summary>
+Img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MoneyCostWeb.Top">
+	<summary>
+Top class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:MoneyCostWeb.ErrorPage.frmError">
+	<summary>
+frmError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.ErrorPage.Top1">
+	<summary>
+Top1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.ErrorPage.lblErrorDescription">
+	<summary>
+lblErrorDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.ErrorPage.txtErrorDesc">
+	<summary>
+txtErrorDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.ErrorPage.btnRetry">
+	<summary>
+btnRetry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MoneyCostWeb.ErrorPage">
+	<summary>
+ErrorPage class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.Link1">
+	<summary>
+Link1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.frmMoneyCost">
+	<summary>
+frmMoneyCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.Top1">
+	<summary>
+Top1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.lblErrorMessage">
+	<summary>
+lblErrorMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.hSSOId">
+	<summary>
+hSSOId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.lblNoMCDetail">
+	<summary>
+lblNoMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.tblIndexRate">
+	<summary>
+tblIndexRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.lblTableHeder">
+	<summary>
+lblTableHeder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.txtSSOID">
+	<summary>
+txtSSOID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.btnSSOID">
+	<summary>
+btnSSOID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.chkbox">
+	<summary>
+chkbox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.chkAllFile">
+	<summary>
+chkAllFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.grdMCDetail">
+	<summary>
+grdMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.tblButtons">
+	<summary>
+tblButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCSecurity.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MoneyCostWeb.UpdateMCSecurity">
+	<summary>
+UpdateMCSecurity class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.Link1">
+	<summary>
+Link1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.frmMoneyCost">
+	<summary>
+frmMoneyCost control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.Top1">
+	<summary>
+Top1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.lblErrorMessage">
+	<summary>
+lblErrorMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.hSSOId">
+	<summary>
+hSSOId control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.lblNoMCDetail">
+	<summary>
+lblNoMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.tblIndexRate">
+	<summary>
+tblIndexRate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.lblTableHeder">
+	<summary>
+lblTableHeder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.grdMCDetail">
+	<summary>
+grdMCDetail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.tblButtons">
+	<summary>
+tblButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MoneyCostWeb.UpdateMCFile.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MoneyCostWeb.UpdateMCFile">
+	<summary>
+UpdateMCFile class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member>
+</members>
+</doc>

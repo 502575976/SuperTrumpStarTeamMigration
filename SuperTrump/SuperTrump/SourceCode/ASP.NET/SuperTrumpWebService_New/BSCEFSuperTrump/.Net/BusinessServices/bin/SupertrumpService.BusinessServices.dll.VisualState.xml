@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1010]D:\SuperTrumpNewCode\BusinessServices\bin\SupertrumpService.BusinessServices.dll</TopNode>
+  <SelectedNode>[0-1001]SupertrumpService.BusinessServices.IClientServiceTestCase.TestProcessMQMessage</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1010]D:\SuperTrumpNewCode\BusinessServices\bin\SupertrumpService.BusinessServices.dll" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1011]SupertrumpService" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1012]SupertrumpService.BusinessServices" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1000]SupertrumpService.BusinessServices.IClientServiceTestCase" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1002]SupertrumpService.BusinessServices.IClientServiceTestCase.ProcessPricingRequestTEST" />
+                    <Node UniqueName="[0-1001]SupertrumpService.BusinessServices.IClientServiceTestCase.TestProcessMQMessage" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1003]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1004]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestConvertPRMToXML" />
+                    <Node UniqueName="[0-1005]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGeneratePRMFiles" />
+                    <Node UniqueName="[0-1006]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGetAmortizationSchedule" />
+                    <Node UniqueName="[0-1007]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGetPricingReports" />
+                    <Node UniqueName="[0-1008]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGetPRMParams" />
+                    <Node UniqueName="[0-1009]SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestModifyPRMFiles" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

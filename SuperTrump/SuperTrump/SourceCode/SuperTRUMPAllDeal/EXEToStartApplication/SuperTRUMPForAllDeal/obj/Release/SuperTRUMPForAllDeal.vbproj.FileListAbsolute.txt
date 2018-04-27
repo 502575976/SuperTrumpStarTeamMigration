@@ -1,0 +1,15 @@
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.exe.config
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.exe
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.pdb
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.xml
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\ResolveAssemblyReference.cache
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.Form1.resources
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.Resources.resources
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.vbproj.GenerateResource.Cache
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.exe
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.xml
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.pdb
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.exe.manifest
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Release\SuperTRUMPForAllDeal.application
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.exe.manifest
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Release\SuperTRUMPForAllDeal.application

@@ -1,0 +1,85 @@
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\ResolveAssemblyReference.cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\Interop.MSXML2.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.ResolveComReference.cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.GenerateResource.Cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Interop.MSXML2.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\ResolveAssemblyReference.cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\Interop.MSXML2.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.ResolveComReference.cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.GenerateResource.Cache
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpServiceNew.BusinessServices.dll.config
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpServiceNew.BusinessServices.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpServiceNew.BusinessServices.pdb
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpServiceNew.BusinessServices.Resources.resources
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpServiceNew.BusinessServices.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpServiceNew.BusinessServices.pdb
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.dll.config
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.pdb
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.STSERVER.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\log4net.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.MSXML2.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.Resources.resources
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.dll
+C:\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.pdb
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.dll.config
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpServiceNew.BusinessServices.pdb
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.STSERVER.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\log4net.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.MSXML2.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\Interop.MSXML2.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.ResolveComReference.cache
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.Resources.resources
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.dll
+D:\GE GDC Working Folder\sumit2.sharma\StarTeam\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpServiceNew.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.ResolveComReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.ResolveComReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\BusinessServices.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Debug\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.dll.config
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\bin\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\bin\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.ResolveComReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.dll.config
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.ResolveComReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.Resources.resources
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\BusinessServices.vbproj.GenerateResource.Cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Release\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpService.BusinessServices.dll.config
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpService.BusinessServices.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\SupertrumpService.BusinessServices.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\log4net.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.MSXML2.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\bin\Debug\Interop.STSERVER.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump\.Net\BusinessServices\obj\Debug\Interop.STSERVER.dll

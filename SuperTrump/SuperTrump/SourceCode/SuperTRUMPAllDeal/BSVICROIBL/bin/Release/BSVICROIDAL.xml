@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BSVICROIDAL
+</name>
+</assembly>
+<members>
+<member name="M:BSVICROIDAL.cDataClass.GenerateQueryToExportDATFile(System.Collections.ArrayList,System.String,System.String)">
+	<summary>
+ Used to make query by passing data in arrayList, table name and column name. *****
+ </summary>
+	<param name="alstColumnValue">DAT file data in Array list</param>
+	<param name="strDBColumnName">Column name for table, used to insert data.</param>
+	<param name="strTableName">table name, used to insert data.</param>
+	<remarks></remarks>
+</member><member name="M:BSVICROIDAL.cDataClass.ExportDATFileByQuery(System.String,System.String)">
+	<summary>
+ Export the data in DB by passing query with Connection String
+ </summary>
+	<param name="sbQuery"></param>
+	<param name="strCon"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIDAL.cDataClass.GetRecordsForAccountScheduleNumber(System.String,System.String)">
+	<summary>
+ Get all data for a particular AccountScheduler number
+ </summary>
+	<param name="strAcNum"></param>
+	<param name="strCon"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BSVICROIDAL.cDataClass.GetAllAccountScheduleNumbers(System.String)">
+	<summary>
+ Get the account schedule numbers with process flag = 0 from database
+ </summary>
+	<param name="strCon"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,7 @@
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\STPerTest\Bin\ISTWebSrvService.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\STPerTest\Bin\ISTWebSrvService.XmlSerializers.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\STPerTest\Bin\ISTWebSrvService.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\ISTWebSrvService\ISTWebSrvService\obj\Release\ResolveAssemblyReference.cache
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\ISTWebSrvService\ISTWebSrvService\obj\Release\ISTWebSrvService.dll
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\ISTWebSrvService\ISTWebSrvService\obj\Release\ISTWebSrvService.pdb
+D:\GE GDC Working Folder\pulak.mishra\Pricing\ISTWebSrvService\WebSrvService_NET\ISTWebSrvService\ISTWebSrvService\obj\Release\ISTWebSrvService.XmlSerializers.dll

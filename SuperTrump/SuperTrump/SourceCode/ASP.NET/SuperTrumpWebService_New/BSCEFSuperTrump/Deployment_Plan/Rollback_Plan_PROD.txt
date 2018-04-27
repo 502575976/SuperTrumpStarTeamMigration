@@ -1,0 +1,32 @@
+Servers:-CEFCIOHPMTCM1, CEFCIOHPMTCM2
+
+Please Execute Rollback plan on both servers.
+
+Rollback Plan
+Component Rollback
+1. Open COM+ package "BSCEFSupertrumpNET" and shut down it by right click over it
+2. Delete below components on COM+ package "BSCEFSupertrumpNET" 
+	2.1 SupertrumpService.BusinessServices.IClientService
+	2.2 SupertrumpService.BusinessServices.ISuperTrumpService
+3. Delete "Components_NET" folder on E:\InternalSites\SuperTrump
+4. Rename "Components_NET_Date on E:\InternalSites\SuperTrump "Components_NET" 
+5. Open Assembly from C drive and uninstall compoment "SupertrumpService.BusinessServices" by right click on that compoment.
+6. run Attached command file "RegistesCom.cmd".
+7. Please ensure the below componet on COM+ Package "BSCEFSupertrumpNET" 
+	7.1 SupertrumpService.BusinessServices.IClientService
+	7.2 SupertrumpService.BusinessServices.ISuperTrumpService
+8. Please ensure "SupertrumpService.BusinessServices" component on Assembly.
+
+Web Service Rollback
+1. Please reset IIS
+2. Please Delete Folder "wwwroot_NET" on E:\InternalSites\BSCEFSuperTrump 
+2. Please Rename Folder "wwwroot_NET_Date" on E:\InternalSites\BSCEFSuperTrump to "wwwroot_NET" 
+6. Please reset IIS.
+
+
+DR Roll Back
+
+1. Delete "Components_NETDR" folder on E:\InternalSites\SuperTrump on servers cefstctqmtcm1,cefstctqmtcm2
+2. Rename "Components_NETDR_Date" folder on E:\InternalSites\SuperTrump to "Components_NETDR on servers cefstctqmtcm1,cefstctqmtcm2
+3. Delete "wwwroot_NETDR" folder on E:\InternalSites\SuperTrump on servers cefstctqmtcm1,cefstctqmtcm2
+4. Rename "wwwroot_NETDR_Date" folder on E:\InternalSites\BSCEFSuperTrump to "wwwroot_NETDR on servers cefstctqmtcm1,cefstctqmtcm2

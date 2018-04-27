@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration>
+<appSettings>
+
+<MoneyCost>Server=vipalgad01sql01.comfin.ge.com\devinst01,1633;Database=MoneyCost;uid=moneycost;pwd=moneycost;enlist=false;</MoneyCost>
+ <MoneyCostHierarch>Provider=MSDATASHAPE;Data Provider=SQLOLEDB;Data Source=DBYSQL01CCEFGE;Initial Catalog=MoneyCost;uid=moneycost;pwd=moneycost;</MoneyCostHierarch>
+ 
+ <SendErrorEmail>1</SendErrorEmail>
+
+
+ <EmailFrom>MoneyCostAdmin@ge.com</EmailFrom>
+ <EmailOverride>MoneyCostAdmin@ge.com</EmailOverride>
+ <EmailSubject>Error updating money cost file - Dev</EmailSubject>
+ <ErrorMailBox>itrc-email-in.clarify@gecapital.com</ErrorMailBox>
+ <SiteID>CFHQ_Danbury</SiteID>
+<DeveloperEmail>501597809@mail.ad.ge.com,501205298@mail.ad.ge.com,501205301@mail.ad.ge.com,501205303@mail.ad.ge.com;501125264@mail.ad.ge.com
+</DeveloperEmail>
+ <ClarifyQueueName>STMoneyCostAuto</ClarifyQueueName>
+ <ClarifyPriority>Priority 4</ClarifyPriority>
+ <ClarifyContact_Phone>203-749-6076</ClarifyContact_Phone>
+ <ClarifyContact_Lname>Email Request</ClarifyContact_Lname>
+ <ClarifyContact_Fname></ClarifyContact_Fname>
+
+
+ <MCDataWarehouse>Provider=OraOLEDB.Oracle;User ID=dwc_user;Password=dwc_user;Persist Security Info=True;Data Source=CFP32;CacheType=Memory;DistribTX=0;PLSQLRSet=1;</MCDataWarehouse>
+
+ <Backup_Location>D:\STARTEAM\MoneyCostSite\SourceCode_Version2\Middle Tier\bussvcs\BSMoneyCostAuto\Backup</Backup_Location>
+  <FTP_Directory>SuperTRUMPDev\MoneyCost\CSV\</FTP_Directory>
+   <FTP_DirectoryNewDateFormat>SuperTRUMPDev\AustraliaMoneyCost\CSV\</FTP_DirectoryNewDateFormat>
+   <FTP_Location>\\3.131.88.26\supertrumpftp</FTP_Location>
+    <FTP_LocationNewDateFormat>\\3.131.88.26\supertrumpftp</FTP_LocationNewDateFormat>
+	 <FTP_Password>test1234</FTP_Password>
+	  <FTP_PasswordNewDateFormat>test1234</FTP_PasswordNewDateFormat>
+	   <FTP_User>supertrumpftp</FTP_User>
+	     <FTP_UserNewDateFormat>supertrumpftp</FTP_UserNewDateFormat>
+		   <Network_Location>D:\MoneyCostSite\SourceCode_Version2\Middle Tier\bussvcs\BSMoneyCostAuto\Output</Network_Location>
+		     <WorkingDirectory>D:\MoneyCostSite\SourceCode_Version2\Middle Tier\bussvcs\BSMoneyCostAuto\Working</WorkingDirectory>
+ <MoneyCostLog4Net>D:\MoneyCostSite\SourceCode_Version2\Middle Tier\bussvcs\log4net_DLL.config</MoneyCostLog4Net>
+<SmtpServer>mail.ad.ge.com</SmtpServer>
+<EncrptFileFlag>True</EncrptFileFlag>
+<BSLDAPURL>http://itoewebsvcs.qa.comfin.ge.com/BSLDAP/BSLDAPdev.wsdl</BSLDAPURL>
+</appSettings>
+</configuration>

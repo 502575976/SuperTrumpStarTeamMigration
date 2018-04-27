@@ -1,0 +1,9 @@
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\bin\Release\SuperTRUMPCommon.dll
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\bin\Release\SuperTRUMPCommon.pdb
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\bin\Release\SuperTRUMPCommon.xml
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\ResolveAssemblyReference.cache
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\SuperTRUMPCommon.Resources.resources
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\SuperTRUMPCommon.vbproj.GenerateResource.Cache
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\SuperTRUMPCommon.dll
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\SuperTRUMPCommon.xml
+D:\StarTeam\SuperTRUMPAllDeal\SuperTRUMPCommon\obj\Release\SuperTRUMPCommon.pdb

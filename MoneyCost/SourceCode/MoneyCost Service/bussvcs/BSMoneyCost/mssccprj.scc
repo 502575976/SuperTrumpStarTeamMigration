@@ -1,0 +1,8 @@
+SCC = This is a Source Code Control file
+
+[BSMoneyCost.vbp]
+SCC_Aux_Path = "\\dnc09antcmmfge\vss\eCenter"
+SCC_Project_Name = "$/Internal Sites/MoneyCostSite/bussvcs/BSMoneyCost", QJGEAAAA
+[Project1.vbp]
+SCC_Project_Name=this project is not under source code control
+SCC_Aux_Path=<This is an empty string for the mssccprj.scc file>

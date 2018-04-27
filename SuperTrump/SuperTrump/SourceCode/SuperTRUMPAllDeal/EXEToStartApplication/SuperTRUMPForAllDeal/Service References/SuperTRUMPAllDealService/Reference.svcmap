@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a43482e1-0987-4aed-91d7-e8835dd81986" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="03b0d4f5-d6d3-4123-b34d-b2680ed6d8a5" SourceId="1" SourceUrl="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="SuperTRUMPAllDealService.wsdl" MetadataType="Wsdl" ID="924a6cff-8cd9-44d8-ae91-4826c4d8ba90" SourceId="1" SourceUrl="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?wsdl" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="01b5f09f-6640-46ee-b172-8472889c301d" SourceId="1" SourceUrl="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="9c0c2aa5-ab6d-47c2-b279-34b6c18c15cf" SourceId="1" SourceUrl="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

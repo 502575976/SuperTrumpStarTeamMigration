@@ -1,0 +1,15 @@
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Debug\SuperTRUMPForAllDeal.exe.config
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Debug\SuperTRUMPForAllDeal.exe
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Debug\SuperTRUMPForAllDeal.pdb
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\bin\Debug\SuperTRUMPForAllDeal.xml
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\ResolveAssemblyReference.cache
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.Form1.resources
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.Resources.resources
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.vbproj.GenerateResource.Cache
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.exe
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.xml
+D:\All Exe\SuperTRUMPForAllDeal\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.pdb
+D:\StarTeam\SuperTRUMPAllDeal\EXEToStartApplication\SuperTRUMPForAllDeal\bin\Debug\SuperTRUMPForAllDeal.exe.config
+D:\StarTeam\SuperTRUMPAllDeal\EXEToStartApplication\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.exe
+D:\StarTeam\SuperTRUMPAllDeal\EXEToStartApplication\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.xml
+D:\StarTeam\SuperTRUMPAllDeal\EXEToStartApplication\SuperTRUMPForAllDeal\obj\Debug\SuperTRUMPForAllDeal.pdb

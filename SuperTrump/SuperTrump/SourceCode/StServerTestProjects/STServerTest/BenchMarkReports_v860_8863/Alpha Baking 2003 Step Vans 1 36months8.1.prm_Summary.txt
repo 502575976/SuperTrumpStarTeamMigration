@@ -1,0 +1,113 @@
+                                                         S U M M A R Y                                                          
+
+                         Prepared Mar-16-2004 18:11 by ............................ your name goes here
+
+================== C A S H   F L O W S ===================            ================== S T A T I S T I C S ===================
+asset cost ................   $     19,745.00   100.000000%           Composite tax rate ............................... 39.5500
+                               --------------   ----------            Tax treatment ............................. True tax lease
+equity .....................        19,745.00   100.000000            FAS 13 for lessor (default) .............. Operating lease
+                               ==============   ==========            FAS 13 for lessee .............................. Operating
+                                                                      
+rent .......................        17,438.86    88.320404                                          pre-tax            after-tax
+residual ...................         4,000.00    20.258293                                          nominal              nominal
+                               --------------   ----------                                        ---------              -------
+total cash in ..............        21,438.86   108.578697            Economic Yield ..              5.4509               3.2951
+                               ==============   ==========            Economic ROI ....                                   0.9000
+                                                                      Book Yield ......              4.9430
+equity .....................        19,745.00   100.000000            Book ROI ........                                   0.9263
+                               --------------   ----------                ( blended money cost rate ........ 3.0830 )
+total cash out .............        19,745.00   100.000000            
+                               ==============   ==========            Economic yield .................................... 5.4509
+                                                                      Money cost, levered ............................... 2.7747
+pre-tax cash flow ..........         1,693.86     8.578697            FINANCE MARGIN .................................... 2.6762
+                               --------------   ----------            
+taxes paid .................           669.92     3.392875            PV on Oct-01-03 of Rent @ IBR
+after-tax cash flow ........         1,023.94     5.185822                      at 1.0000% .............. 17,172.83    86.973054
+                               ==============   ==========               on Oct-01-03 of Rent @ IIR
+                                                                                at 4.6010% .............. 16,259.79    82.348891
+money cost (AT) ............           516.72     2.616977               on Oct-01-03 of Rent & Res
+handling & loss (AT) .......           221.72     1.122912                      at 1.0000% .............. 21,054.66   106.632870
+                               --------------   ----------            
+net income .................           285.50     1.445933            average-life of book investment ............. 1.5610 years
+                               ==============   ==========            total book average net investment .............. 30,821.91
+                                                                      total book gross margin ........................... 839.07
+                                                                      
+                                                                      implicit interest rate ............................ 4.6010
+                                                                      Full term rate without residual .................. -8.5266
+                                                                                     with residual ...................... 4.9430
+                                                                      Base term rate without residual .................. -7.8784
+                                                                                     with residual ...................... 4.6010
+                                                                      
+
+
+========================================================= A s s e t s ==========================================================
+               cost   delivery    funding      residual        %       date    description                             ADR class
+      -------------  ---------  ---------  --------------------------------    -------------------------------------------------
+          19,745.00  Oct-01-03  Nov-15-03      4,000.00  20.2583  Oct-01-06      
+
+      --------------------------- Depreciation ----------------------------                     
+            start date               method     term   salvage   convention                     
+            ----------   ------------------   ------   -------   ----------                     
+       Fed   Oct-01-03    MACRS (DB/SL 200)    5.000     0.000    Half-year                     
+      Book   Oct-01-03     Str line, to end    3.000    20.258 Facts & circ
+
+
+========================================================== R e n t s ===========================================================
+      commencement date ........ Oct-01-03       #   timing       from          to    1st pmt     type         amount  % of cost
+                                              -------------  ---------------------  ---------  -------  -------------  ---------
+      payments ................. 17,438.86      36  mon arr  Oct-01-03 ->Oct-01-06  Nov-01-03  payment         484.41   2.453345
+                                               
+
+===================== G e n e r a l ======================
+Commencement date .............................. Oct-01-03
+Lessor's sinking fund rate (PT) ................... 1.9200
+Lessee's inc. borr. rate (PT) ..................... 1.0000
+Default residual sale delay (days) ..................... 0
+
+
+================= R O I   &   O t h e r ==================
+Money cost
+    Pre-tax rate .................................. 3.0830
+    Re-investment rate ............................ 1.9200
+    Use money cost for sinking fund rate .............. No
+    Method .............. Term based with index adjustment
+          Month        Rate
+       --------    --------
+              1      2.0000
+             11      2.0000
+             12      2.5000
+             23      2.5000
+             24      3.0000
+             35      3.0000
+             36      4.0000
+    Use daily/weekly money cost tables ................ No
+
+Internal equity .................................. 10.0000
+Expenses (% of ANI) ............................... 1.1900
+Expenses (% of Cost) .............................. 0.0000
+LTC/Expenses (% of Rent) .......................... 0.0000
+Expenses (Fixed) .................................... 0.00
+Expenses (Fixed Annual) ............................. 0.00
+Loss (% of ANI) ................................... 0.0000
+Do rent index ......................................... No
+Show total book average net investment ............... Yes
+     Use cost less advance rent and security deposit .. No
+Total book gross margin on quick screen ............... No
+
+
+======== Y i e l d   I n d e x =========
+Method ..................... Fixed: term
+Description .............. Cost of Funds
+Date ......................... Nov-24-01
+                       Month        Rate
+                  ----------    --------
+                           1      2.3200
+                          11      2.3200
+                          12      2.3200
+                          23      2.3200
+                          24      2.7200
+                          35      2.7200
+                          36      3.1500
+
+
+SuperTRUMP 8.60 financial model                              Page 1                                 Ivory Consulting Corporation

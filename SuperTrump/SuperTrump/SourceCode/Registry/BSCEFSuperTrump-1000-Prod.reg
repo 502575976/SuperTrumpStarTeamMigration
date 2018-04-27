@@ -1,0 +1,22 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FacilitySettings\1000]
+"Component"="BSCEFSuperTrump"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FacilitySettings\1000\Debug]
+"DebugLevel"="0"
+"DebugFile"="D:\\Program Files\\SuperTrump\\Debug\\BSCEFSuperTrumpLog.txt"
+"MaxDebugFileSize"="10000000"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FacilitySettings\1000\FilePath]
+"PRMFilePath"="D:\\Program Files\\SuperTrump\\Debug"
+"ReportTemplatePath"="D:\\Program Files\\SuperTrump\\ReportTemplates"
+"SchemaFilePath"="D:\\Program Files\\SuperTrump\\Schemas"
+"PRMTemplatePath"="D:\\Program Files\\SuperTrump\\PRMTemplates"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\FacilitySettings\1000\QInfo]
+"RequestQueueManager"="HUB"
+"RequestQueue"="NT.SUPERTRUMP.REQUEST"
+"ResponseQueueManager"="HUB"
+"ResponseQueue"="NT.SUPERTRUMP.REQUEST"
+

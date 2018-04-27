@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+ <!-- Generated 11/02/05 by Microsoft SOAP Toolkit WSDL File Generator, Version 3.00.1325.0 --> 
+  <servicemapping name='BSCEFSuperTrump' xmlns:dime='http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/'>
+  <service name='BSCEFSuperTrump'>
+    <using PROGID='BSCEFSuperTrump.ISuperTrumpService' cachable='0' ID='ISuperTrumpServiceObject' />
+    <using PROGID='BSCEFSuperTrump.IClientService' cachable='0' ID='IClientServiceObject' />
+    <port name='ISuperTrumpServiceSoapPort'>
+      <operation name='ConvertPRMToXML'>
+        <execute uses='ISuperTrumpServiceObject' method='ConvertPRMToXML' dispID='1610809348'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMFileListXML' elementName='astrPRMFileListXML' />
+        </execute>
+      </operation>
+      <operation name='GetPricingReports'>
+        <execute uses='ISuperTrumpServiceObject' method='GetPricingReports' dispID='1610809349'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPricingRepInfoXML' elementName='astrPricingRepInfoXML' />
+        </execute>
+      </operation>
+      <operation name='Ping'>
+        <execute uses='ISuperTrumpServiceObject' method='Ping' dispID='1610809351'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='Test'>
+        <execute uses='ISuperTrumpServiceObject' method='Test' dispID='1610809357'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+      <operation name='GeneratePRMFiles'>
+        <execute uses='ISuperTrumpServiceObject' method='GeneratePRMFiles' dispID='1610809353'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMInfoXML' elementName='astrPRMInfoXML' />
+        </execute>
+      </operation>
+      <operation name='GetPRMParams'>
+        <execute uses='ISuperTrumpServiceObject' method='GetPRMParams' dispID='1610809354'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMParamsInfoXML' elementName='astrPRMParamsInfoXML' />
+        </execute>
+      </operation>
+      <operation name='GetAmortizationSchedule'>
+        <execute uses='ISuperTrumpServiceObject' method='GetAmortizationSchedule' dispID='1610809355'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMFileListXML' elementName='astrPRMFileListXML' />
+        </execute>
+      </operation>
+      <operation name='ModifyPRMFiles'>
+        <execute uses='ISuperTrumpServiceObject' method='ModifyPRMFiles' dispID='1610809359'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrModifyPRMFilesXML' elementName='astrModifyPRMFilesXML' />
+        </execute>
+      </operation>
+      <operation name='GeneratePRMFilesForPmtStruct'>
+        <execute uses='ISuperTrumpServiceObject' method='GeneratePRMFilesForPmtStruct' dispID='1610809361'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMInfoXML' elementName='astrPRMInfoXML' />
+        </execute>
+      </operation>
+      <operation name='GeneratePRMFilesForPmtStruct2'>
+        <execute uses='ISuperTrumpServiceObject' method='GeneratePRMFilesForPmtStruct2' dispID='1610809363'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPRMInfoXML' elementName='astrPRMInfoXML' />
+        </execute>
+      </operation>
+    </port>
+    <port name='IClientServiceSoapPort'>
+      <operation name='ProcessMQMessage'>
+        <execute uses='IClientServiceObject' method='ProcessMQMessage' dispID='1610809344'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrMQMsgInfoXML' elementName='astrMQMsgInfoXML' />
+        </execute>
+      </operation>
+      <operation name='ProcessPricingRequest'>
+        <execute uses='IClientServiceObject' method='ProcessPricingRequest' dispID='1610809345'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+          <parameter callIndex='1' name='astrPricingRequestXML' elementName='astrPricingRequestXML' />
+        </execute>
+      </operation>
+      <operation name='Ping'>
+        <execute uses='IClientServiceObject' method='Ping' dispID='1610809348'>
+          <parameter callIndex='-1' name='retval' elementName='Result' />
+        </execute>
+      </operation>
+    </port>
+  </service>
+</servicemapping>
+ 

@@ -1,0 +1,30 @@
+<MainNode> 
+  <ConnectionstringOracleClientProvider>User ID=vic_roi;Password=vic_roi;Data Source=mmfd01;</ConnectionstringOracleClientProvider>
+  <ConnectionstringOLEDBProvider>Provider=MSDAORA.1;User ID=vic_roi;Password=vic_roi;Data Source=mmfd01;Persist Security Info=False</ConnectionstringOLEDBProvider>
+  <AttachmentRequiredinMailFlag>False</AttachmentRequiredinMailFlag>
+  <SmtpClient>mail.ad.ge.com</SmtpClient>
+  <MailFrom>SuperTRUMPAllDealAdmin@ge.com</MailFrom>
+  <MailTo>sumit.sharma2@ge.com;sanjay.srivastava@ge.com;atul.sinha@ge.com</MailTo>
+  <EmailMessageTitle>SuperTRUMP For AllDeal Status Mail</EmailMessageTitle>
+  <LogFilePath>E:\\Logfiles\\STALLDEAL\\SuperTRUMPForAllDeal_DebugLogFile.txt</LogFilePath>
+  <TempLogFilePath>E:\\Logfiles\\STALLDEAL\\DebugLogFile.txt</TempLogFilePath>
+  <PRMPath>\\comfinciohnas.comfin.ge.com\CIOHShared$\PRICING_ROI\DEV\ST_ALL_DEAL</PRMPath>
+  <PRMPathAccessUserName>supertrumpftp_qa</PRMPathAccessUserName>
+  <PRMPathAccessPassword>trump12ftp</PRMPathAccessPassword>  
+  <InputOutputFolderDeleted>No</InputOutputFolderDeleted>
+  <InputXmlPath>E:\\Logfiles\\STALLDEAL\\InputXml\</InputXmlPath>
+  <LeaseXSLTPath>E:\internalsites\cef\SuperTrumpAllDeal\Transform\Xslt\LeaseXSLT.xsl</LeaseXSLTPath>
+  <OutputXmlPath>E:\\Logfiles\\STALLDEAL\\OutputXmlNew\</OutputXmlPath>
+  <DATDestinationPath>E:\logfiles\STALLDEAL\</DATDestinationPath>
+  <DATRemotePort>21</DATRemotePort>  
+  <DATRemoteHostFTPServer>3.154.180.200</DATRemoteHostFTPServer>
+  <DATRemoteUser>ftpuser</DATRemoteUser>
+  <DATRemotePassword>te1234st</DATRemotePassword>  
+  <DATSourcePath>/ap02d/cfdw/Informatica/Scripts/BTEQ/EXTRNL</DATSourcePath>
+  <DATFileList>Account_Schedule.dat,Stream_Feed.dat,Asset_feed.dat</DATFileList >
+  <DATControlFilePath>E:\logfiles\STALLDEAL\</DATControlFilePath>
+  <DATControlFileList>Account_Schedule_Ctrl.txt,Asset_feed_Ctrl.txt,Stream_Feed_Ctrl.txt</DATControlFileList>
+  <CheckSuperTrumpExceptionFlag>True</CheckSuperTrumpExceptionFlag>  
+  <PRMMatchingStatusReportPath>E:\logfiles\STALLDEAL\HTMLReportForPRM.html</PRMMatchingStatusReportPath>
+  <ST_ExceptionPath>\\cmfalgadmts1.comfin.ge.com\logfiles\STALLDEAL\ST_Exception\</ST_ExceptionPath>
+</MainNode>

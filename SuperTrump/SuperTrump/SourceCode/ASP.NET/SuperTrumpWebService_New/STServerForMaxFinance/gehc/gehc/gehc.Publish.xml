@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\STServer\Publish\">
+    <file relUrl="StServer.aspx" publishTime="1/16/2009 2:35:42 AM" />
+    <file relUrl="logStServer.aspx" publishTime="12/9/2004 7:03:18 PM" />
+    <file relUrl="bin/Interop.STSERVER.dll" publishTime="4/16/2013 2:12:50 PM" />
+    <file relUrl="bin/gehc.pdb" publishTime="4/17/2013 12:57:37 PM" />
+    <file relUrl="bin/gehc.dll" publishTime="4/17/2013 12:57:37 PM" />
+  </publishTarget>
+</publishData>

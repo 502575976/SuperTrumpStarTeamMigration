@@ -1,0 +1,324 @@
+<FILECOPYSVC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CEFFileCopySvc_config.xsd">
+	<CONFIG>
+		<DIRS>
+			<FTP_DIR ACTION="COPY" ACTIVE="0" PORT="21" HOST="3.248.80.156" USER="anonymous" PASSWORD="">
+				<SRC>/cw_scan/data/efile/</SRC>
+				<DEST>\\cds01fntcmmfge\ScanDocs\eFile\Aus</DEST>
+			</FTP_DIR>
+		</DIRS>
+		<FILES>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MoneyCosts.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\AniEquity.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\AniEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\RVs.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\RVs.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCTHB.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCTHB.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCSGD.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\MCSGD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\server\CSV\LossAni.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\LossAni.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrePayCurve.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\PrePayCurve.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrescribedRate.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\PrescribedRate.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PricingPrograms.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\PricingPrograms.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnDrift.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\UndrawnDrift.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnEquity.csv</SRC>
+				<DEST>\\cefciohpmtcm1\STServer\UndrawnEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MoneyCosts.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\AniEquity.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\AniEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\RVs.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\RVs.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCTHB.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCTHB.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCSGD.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\MCSGD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\server\CSV\LossAni.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\LossAni.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrePayCurve.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\PrePayCurve.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrescribedRate.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\PrescribedRate.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PricingPrograms.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\PricingPrograms.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnDrift.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\UndrawnDrift.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnEquity.csv</SRC>
+				<DEST>\\cefciohpmtcm2\STServer\UndrawnEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCKRW.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCKRW.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCTHB.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCTHB.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCSGD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Money Cost\CSV\MCSGD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCKRW.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCKRW.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCTHB.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCTHB.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCSGD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP2\TFS\CSV\MCSGD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MoneyCosts.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\AniEquity.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\AniEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\Server\CSV\RVs.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\RVs.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCTHB.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCTHB.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCSGD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCSGD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\server\CSV\LossAni.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\LossAni.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrePayCurve.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\PrePayCurve.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PrescribedRate.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\PrescribedRate.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\PricingPrograms.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\PricingPrograms.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnDrift.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\UndrawnDrift.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP2\CS\CSV\UndrawnEquity.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\UndrawnEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MoneyCosts.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\AniEquity.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\AniEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCUSD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCAUD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCAUD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCCAD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCCAD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCJPY.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCJPY.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCMXN.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCMXN.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCNZD.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCNZD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\dby01fntccefge\XeroxScan\SuperTRUMP\Money Cost\Program\MCKRW.csv</SRC>
+				<DEST>\\dby01fntccefge\XeroxScan\SuperTRUMP\TFS\Program\MCKRW.csv</DEST>
+			</FILE>
+		</FILES>
+	</CONFIG>
+</FILECOPYSVC>

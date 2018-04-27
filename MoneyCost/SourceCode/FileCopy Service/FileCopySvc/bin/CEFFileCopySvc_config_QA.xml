@@ -1,0 +1,30 @@
+<FILECOPYSVC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CEFFileCopySvc_config.xsd">
+	<CONFIG>
+		<FILES>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\MCUSD.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\MoneyCosts.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\AniEquity.csv</SRC>
+				<DEST>\\cdspmts2ccefge\STServer\AniEquity.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\MCUSD.csv</SRC>
+				<DEST>\\cdsqmts2ccefge\STServer\MCUSD.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\MoneyCosts.csv</SRC>
+				<DEST>\\cdsqmts2ccefge\STServer\MoneyCosts.csv</DEST>
+			</FILE>
+			<FILE ACTION="COPY" ACTIVE="1">
+				<SRC>\\3.61.248.140\Swdist\trikledn\deploy\csvstnew\daily\AniEquity.csv</SRC>
+				<DEST>\\cdsqmts2ccefge\STServer\AniEquity.csv</DEST>
+			</FILE>
+		</FILES>
+	</CONFIG>
+</FILECOPYSVC>

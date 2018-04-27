@@ -1,0 +1,875 @@
+<PRM_FILE_LIST>
+	<PRM_FILE>
+		<FILE_NAME>SampleLoanPRMFile.prm</FILE_NAME>
+		<PRM_XML>
+			<SuperTRUMP>
+				<Transaction id="TRANS_ID_SampleLoanPRMFile">
+					<Mode>Lender</Mode>
+					<TransactionAmount>2500000</TransactionAmount>
+					<TransactionStartDate>2003-07-15</TransactionStartDate>
+					<TermInMonths>60</TermInMonths>
+					<TermInYears>5</TermInYears>
+					<Structure>Level</Structure>
+					<Periodicity>Monthly</Periodicity>
+					<PaymentTiming>Arrears</PaymentTiming>
+					<AveragePayment>47441.9701671859</AveragePayment>
+					<AveragePaymentPercent>0.018976788066874</AveragePaymentPercent>
+					<CommencementDate>2003-07-15</CommencementDate>
+					<NumberOfPayments>60</NumberOfPayments>
+					<SecurityDeposit>0</SecurityDeposit>
+					<LendingRate>0.0523</LendingRate>
+					<SkipMonths/>
+					<Features>
+						<AllowFederalTaxes>true</AllowFederalTaxes>
+						<AllowSecurityDeposits>true</AllowSecurityDeposits>
+						<AllowSkipMonths>true</AllowSkipMonths>
+					</Features>
+					<Notes>5 year T is 248 on 7-1-03, July pricing letter, 89 off</Notes>
+					<SinkingFundRate>0.0167</SinkingFundRate>
+					<SinkingFundRateIsPT>true</SinkingFundRateIsPT>
+					<IncrementalBorrowingRate>0.1</IncrementalBorrowingRate>
+					<QuoteDate>2003-06-09</QuoteDate>
+					<TaxClass>Lease</TaxClass>
+					<FASBclass>Determined by FASB tests</FASBclass>
+					<LoanAmount>0</LoanAmount>
+					<FirstPaymentDate>2003-08-15</FirstPaymentDate>
+					<LendingLoans>
+						<LendingLoan index="0">
+							<AutoFunding>None</AutoFunding>
+							<IsRecourse>true</IsRecourse>
+							<IsROILoan>false</IsROILoan>
+							<SumOfFundings>2500000</SumOfFundings>
+							<FedTaxablePct>1</FedTaxablePct>
+							<DefaultBalancingFor>Payments</DefaultBalancingFor>
+							<DefaultBalancingHow>Proportional</DefaultBalancingHow>
+							<SkipMethod>Zero</SkipMethod>
+							<IsTakeoutLoan>false</IsTakeoutLoan>
+							<SkipPaymentAmount>0</SkipPaymentAmount>
+							<AssociationIndex>0</AssociationIndex>
+							<AdjustOnTarget>true</AdjustOnTarget>
+							<AdjustWhileEditingCost>true</AdjustWhileEditingCost>
+							<AdjustWhileTargetingCost>true</AdjustWhileTargetingCost>
+							<CompoundMonthly>false</CompoundMonthly>
+							<FirstStartAccrual>2003-07-15</FirstStartAccrual>
+							<AssociationMethod>All</AssociationMethod>
+							<SumOfPayments>2846518.21003116</SumOfPayments>
+							<CashflowSteps>
+								<CashflowStep index="0">
+									<DaysInPeriod>30</DaysInPeriod>
+									<StartAccrual>2003-07-15</StartAccrual>
+									<EndAccrual>2003-07-15</EndAccrual>
+									<FirstPaymentDate>2003-07-15</FirstPaymentDate>
+									<StartAccrualActual>2003-07-15</StartAccrualActual>
+									<EndAccrualActual>2003-07-15</EndAccrualActual>
+									<Type>Funding</Type>
+									<Amount>-2500000</Amount>
+									<AmountLocked>false</AmountLocked>
+									<SuperTRUMPCreated>false</SuperTRUMPCreated>
+									<Balance>2500000</Balance>
+									<PaymentTiming>Equal</PaymentTiming>
+								</CashflowStep>
+								<CashflowStep index="1">
+									<NumberOfPayments>60</NumberOfPayments>
+									<DaysInPeriod>30</DaysInPeriod>
+									<Periodicity>Monthly</Periodicity>
+									<StartAccrual>2003-07-15</StartAccrual>
+									<EndAccrual>2008-07-15</EndAccrual>
+									<FirstPaymentDate>2003-08-15</FirstPaymentDate>
+									<StartAccrualActual>2003-07-15</StartAccrualActual>
+									<EndAccrualActual>2008-07-15</EndAccrualActual>
+									<Type>Payment</Type>
+									<IsStub>false</IsStub>
+									<IsAdvance>false</IsAdvance>
+									<Rate>0.0523</Rate>
+									<Amount>47441.9701671859</Amount>
+									<AmountLocked>false</AmountLocked>
+									<RateLocked>false</RateLocked>
+									<SuperTRUMPCreated>false</SuperTRUMPCreated>
+									<Balance>0.00000000026921043172479</Balance>
+									<PaymentTiming>Arrears</PaymentTiming>
+								</CashflowStep>
+								<CashflowStep index="2">
+									<NumberOfPayments>1</NumberOfPayments>
+									<DaysInPeriod>0</DaysInPeriod>
+									<Periodicity>Stub</Periodicity>
+									<StartAccrual>2008-07-15</StartAccrual>
+									<EndAccrual>2008-07-15</EndAccrual>
+									<FirstPaymentDate>2008-07-15</FirstPaymentDate>
+									<StartAccrualActual>2008-07-15</StartAccrualActual>
+									<EndAccrualActual>2008-07-15</EndAccrualActual>
+									<Type>Balloon</Type>
+									<IsStub>true</IsStub>
+									<IsAdvance>false</IsAdvance>
+									<Rate>0.0523</Rate>
+									<Amount>0</Amount>
+									<AmountLocked>true</AmountLocked>
+									<RateLocked>false</RateLocked>
+									<SuperTRUMPCreated>false</SuperTRUMPCreated>
+									<Balance>0.00000000026921043172479</Balance>
+									<PaymentTiming>Equal</PaymentTiming>
+								</CashflowStep>
+							</CashflowSteps>
+							<Structure>Level</Structure>
+							<Disabled>false</Disabled>
+						</LendingLoan>
+					</LendingLoans>
+					<Yields>
+						<Yield index="0">
+							<IsOn>true</IsOn>
+							<Name>FINANCE MARGIN</Name>
+							<YMeth2>Q</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.052299999807027</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0.026946</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.07</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>true</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.015326492883348</NAT>
+							<EAT>0.015505855991263</EAT>
+							<NPT>0.025353999807027</NPT>
+							<EPT>0.025650712971485</EPT>
+							<SpreadBaseYield>0.052299999807027</SpreadBaseYield>
+							<SpreadIndexDescription>Cost of Funds</SpreadIndexDescription>
+							<SpreadIndexRate>0.026946</SpreadIndexRate>
+							<SpreadIndexDate>2001-11-24</SpreadIndexDate>
+						</Yield>
+						<Yield index="1">
+							<IsOn>true</IsOn>
+							<Name>Economic Yield</Name>
+							<YMeth2>7</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0</SinkingFundRate>
+							<Compounded>Monthly</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.1</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.031662746441198</NAT>
+							<EAT>0.032126304561849</EAT>
+							<NPT>0.052378406023488</NPT>
+							<EPT>0.053145251549791</EPT>
+						</Yield>
+						<Yield index="2">
+							<IsOn>true</IsOn>
+							<Name>Economic ROI</Name>
+							<YMeth2>8</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.02994</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0.031662746441198</BorrowingRate>
+							<LendingRate>0.0072129986810928</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.015</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.0072129986810928</NAT>
+							<EAT>0.0072368923923487</EAT>
+							<NPT>0.011932173169715</NPT>
+							<EPT>0.011971699573778</EPT>
+						</Yield>
+						<Yield index="3">
+							<IsOn>true</IsOn>
+							<Name>Book Yield</Name>
+							<YMeth2>9</YMeth2>
+							<Array>PTCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.0523</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>true</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.031615349883348</NAT>
+							<EAT>0.032384314707475</EAT>
+							<NPT>0.052299999807027</NPT>
+							<EPT>0.053572067340736</EPT>
+						</Yield>
+						<Yield index="4">
+							<IsOn>true</IsOn>
+							<Name>Book ROI</Name>
+							<YMeth2>B</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.02994</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.015</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.0072138628192012</NAT>
+							<EAT>0.0072377622616118</EAT>
+							<NPT>0.011933602678579</NPT>
+							<EPT>0.01197313856346</EPT>
+						</Yield>
+						<Yield index="5">
+							<IsOn>false</IsOn>
+						</Yield>
+					</Yields>
+					<PVs>
+						<PV index="0">
+							<IsOn>true</IsOn>
+							<Name>Rent</Name>
+							<SolveforPV>true</SolveforPV>
+							<PVArray>8</PVArray>
+							<DateMethod>Delivery: earliest</DateMethod>
+							<Date>1996-02-12</Date>
+							<RateMethod>First borrowing loan interest rate</RateMethod>
+							<Rate>0.08</Rate>
+							<CompoundingMethod>Periodic</CompoundingMethod>
+							<ValueAmount>0</ValueAmount>
+							<ValuePercent>0</ValuePercent>
+							<IsKnown>false</IsKnown>
+							<AdjustRate>false</AdjustRate>
+							<FirstInclude>None</FirstInclude>
+							<SecondInclude>None</SecondInclude>
+							<ThirdInclude>None</ThirdInclude>
+						</PV>
+						<PV index="1">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="2">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="3">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="4">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="5">
+							<IsOn>false</IsOn>
+						</PV>
+					</PVs>
+					<LessorLender>
+						<AMTRate>0.2</AMTRate>
+						<UseAMT>false</UseAMT>
+						<SpreadRemainingAMT>false</SpreadRemainingAMT>
+						<IsFirstYear>false</IsFirstYear>
+						<StartFirstYear>1971-01-01</StartFirstYear>
+						<TaxYearEnd>12</TaxYearEnd>
+						<AMTStart>1996-01-01</AMTStart>
+						<AMTEnd>2000-01-01</AMTEnd>
+						<AccountingPreferences>
+							<MonthlyIncomeBooking>Pro-rated</MonthlyIncomeBooking>
+							<CapitalLeaseIncomeRecogitionMethod>GECC book yield</CapitalLeaseIncomeRecogitionMethod>
+							<CapitalLeaseIncomeRecogitionBase>FAS 13 accounting</CapitalLeaseIncomeRecogitionBase>
+							<CapitalLeaseIncomeRecogitionCompound>Monthly</CapitalLeaseIncomeRecogitionCompound>
+						</AccountingPreferences>
+					</LessorLender>
+					<GEData>
+						<MoneyCost>0.02994</MoneyCost>
+						<MoneyCostMethod>Fixed</MoneyCostMethod>
+						<ExpenseANI>0.0135</ExpenseANI>
+						<GEBusiness>Not Specified</GEBusiness>
+						<InternalEquity>0.1</InternalEquity>
+						<UsingPeriodicMoneyCostTables>false</UsingPeriodicMoneyCostTables>
+						<MoneyCostDate>2003-07-02</MoneyCostDate>
+						<UsingMoneyCostFrom>2000-01-01</UsingMoneyCostFrom>
+						<LayeredLimitMonths>0</LayeredLimitMonths>
+						<SpecifyEquity>true</SpecifyEquity>
+						<SpecifyANI>true</SpecifyANI>
+					</GEData>
+					<Results>
+						<AverageLifeOfLoanLending>2.65023488666667</AverageLifeOfLoanLending>
+						<FullTermRate>0.052299999817347</FullTermRate>
+						<FullTermRateWithResidual>0.052299999817347</FullTermRateWithResidual>
+						<BaseTermRate>0.052299999817347</BaseTermRate>
+						<BaseTermRateWithResidual>0.052299999817347</BaseTermRateWithResidual>
+						<CompositeTaxRate>0.3955</CompositeTaxRate>
+						<FirstPaymentDate>1970-02-28</FirstPaymentDate>
+						<NumberOfPayments>0</NumberOfPayments>
+						<LeaseRateFactor>0.018976788066874</LeaseRateFactor>
+						<LoanRateFactor>0.018976788066874</LoanRateFactor>
+						<PaybackPeriod>1970-12-30</PaybackPeriod>
+						<RentIsLessThanDS>0</RentIsLessThanDS>
+						<NetAfterTaxProfit>0</NetAfterTaxProfit>
+						<InternalLoanBorrowingRate>0</InternalLoanBorrowingRate>
+						<InternalLoanLendingRate>0</InternalLoanLendingRate>
+						<InternalLoanLeverage>0</InternalLoanLeverage>
+						<LessorAccountingMethod>Loan</LessorAccountingMethod>
+						<InsuredResidual>0</InsuredResidual>
+						<TransactionEndDate>2008-07-15</TransactionEndDate>
+						<AccountingResults>
+							<LessorAccountingMethod>Loan</LessorAccountingMethod>
+							<BargainPurchaseOptionTest>Passed</BargainPurchaseOptionTest>
+							<LesseeAccountingMethod>Operating</LesseeAccountingMethod>
+						</AccountingResults>
+						<IsConditionalSale>false</IsConditionalSale>
+						<Stream/>
+					</Results>
+					<TargetData>
+						<TypeOfStatistic>Yield</TypeOfStatistic>
+						<StatisticIndex>3</StatisticIndex>
+						<NEPA>Pre-tax nominal</NEPA>
+						<TargetValue>0.0523</TargetValue>
+						<Adjust>Loan lend: payments =&gt; rates</Adjust>
+						<AdjustmentMethod>Proportional</AdjustmentMethod>
+					</TargetData>
+					<YieldIndex>
+						<ConstantRate>0.06</ConstantRate>
+						<IndexMethod>Fixed: term</IndexMethod>
+						<FixedRates>
+							<FixedRate Months="1">0.0232</FixedRate>
+							<FixedRate Months="11">0.0232</FixedRate>
+							<FixedRate Months="12">0.0232</FixedRate>
+							<FixedRate Months="23">0.0232</FixedRate>
+							<FixedRate Months="24">0.0272</FixedRate>
+							<FixedRate Months="35">0.0272</FixedRate>
+							<FixedRate Months="36">0.0315</FixedRate>
+							<FixedRate Months="47">0.0315</FixedRate>
+							<FixedRate Months="48">0.0356</FixedRate>
+							<FixedRate Months="59">0.0356</FixedRate>
+							<FixedRate Months="60">0.0396</FixedRate>
+							<FixedRate Months="71">0.0396</FixedRate>
+							<FixedRate Months="72">0.0415</FixedRate>
+							<FixedRate Months="83">0.0415</FixedRate>
+							<FixedRate Months="84">0.0434</FixedRate>
+							<FixedRate Months="95">0.0434</FixedRate>
+							<FixedRate Months="96">0.0443</FixedRate>
+							<FixedRate Months="107">0.0443</FixedRate>
+							<FixedRate Months="108">0.0452</FixedRate>
+							<FixedRate Months="119">0.0452</FixedRate>
+							<FixedRate Months="120">0.0461</FixedRate>
+							<FixedRate Months="150">0.0461</FixedRate>
+						</FixedRates>
+						<FloatingRates>
+							<FloatingRate Months="1">0.05375</FloatingRate>
+							<FloatingRate Months="3">0.05563</FloatingRate>
+							<FloatingRate Months="6">0.0575</FloatingRate>
+						</FloatingRates>
+					</YieldIndex>
+					<ParameterFileVersion>8651</ParameterFileVersion>
+					<ParameterFileCustomVersion>20</ParameterFileCustomVersion>
+					<ParameterFileSTName>Carlo 7-1-03 5 Year Fixed Loan 275 spread 89 off</ParameterFileSTName>
+				</Transaction>
+			</SuperTRUMP>
+		</PRM_XML>
+	</PRM_FILE>
+	<PRM_FILE>
+		<FILE_NAME>SampleLeasePRMFile.prm</FILE_NAME>
+		<PRM_XML>
+			<SuperTRUMP>
+				<Transaction id="TRANS_ID_SampleLeasePRMFile">
+					<Mode>Lessor</Mode>
+					<TransactionAmount>2500000</TransactionAmount>
+					<TransactionStartDate>2003-07-15</TransactionStartDate>
+					<ResidualAmount>782534.25</ResidualAmount>
+					<ResidualPercent>0.3130137</ResidualPercent>
+					<TermInMonths>60</TermInMonths>
+					<TermInYears>5</TermInYears>
+					<Structure>Level</Structure>
+					<Periodicity>Monthly</Periodicity>
+					<PaymentTiming>Advance</PaymentTiming>
+					<AveragePayment>34972.2080292353</AveragePayment>
+					<AveragePaymentPercent>0.013988883211694</AveragePaymentPercent>
+					<CommencementDate>2003-07-15</CommencementDate>
+					<TotalExpenseFees>4679.14946527245</TotalExpenseFees>
+					<NumberOfPayments>60</NumberOfPayments>
+					<DepreciationTerm>5</DepreciationTerm>
+					<SecurityDeposit>0</SecurityDeposit>
+					<SkipMonths/>
+					<Features>
+						<AllowAccounting>true</AllowAccounting>
+						<AllowFederalTaxes>true</AllowFederalTaxes>
+						<AllowSecurityDeposits>true</AllowSecurityDeposits>
+						<AllowEBOSpecifiedTV>true</AllowEBOSpecifiedTV>
+						<AllowSkipMonths>true</AllowSkipMonths>
+					</Features>
+					<Notes>5 year T is 248 on 7-1-03, July pricing letter, 34 off </Notes>
+					<SinkingFundRate>0.0167</SinkingFundRate>
+					<SinkingFundRateIsPT>true</SinkingFundRateIsPT>
+					<IncrementalBorrowingRate>0.01</IncrementalBorrowingRate>
+					<QuoteDate>2003-06-09</QuoteDate>
+					<RVIrate>0.01</RVIrate>
+					<AutoRVI>true</AutoRVI>
+					<TaxClass>Lease</TaxClass>
+					<FASBclass>Determined by FASB tests</FASBclass>
+					<AssetCost>2500000</AssetCost>
+					<Section467Method>Off</Section467Method>
+					<LoanAmount>0</LoanAmount>
+					<FirstPaymentDate>2003-07-15</FirstPaymentDate>
+					<Assets>
+						<Asset index="0">
+							<Cost>2500000</Cost>
+							<DeliveryDate>2003-07-15</DeliveryDate>
+							<FundingDate>2003-07-15</FundingDate>
+							<Residual>782534.25</Residual>
+							<ResidualDate>2008-07-15</ResidualDate>
+							<UseDefaultResidualDate>true</UseDefaultResidualDate>
+							<UseDefaultResidual>true</UseDefaultResidual>
+							<LesseeResidual>0</LesseeResidual>
+							<CreatedInternally>false</CreatedInternally>
+							<CapitalFee>0</CapitalFee>
+							<GuaranteeType>Unguaranteed</GuaranteeType>
+							<AdjustOnTarget>true</AdjustOnTarget>
+							<TaxLife>0</TaxLife>
+							<BookLife>0</BookLife>
+							<FMV>782534.25</FMV>
+							<TrueLeaseMinimumResidual>0.5</TrueLeaseMinimumResidual>
+							<LesseePurchaseOptionMethod>None</LesseePurchaseOptionMethod>
+							<InServiceDate>2003-07-15</InServiceDate>
+							<SpecifyInService>false</SpecifyInService>
+							<SpecifyFMV>false</SpecifyFMV>
+							<ADRClass>not selected</ADRClass>
+							<Inactive>false</Inactive>
+							<NetBookValueToResidual>false</NetBookValueToResidual>
+							<ResidualKeptAsAPercent>true</ResidualKeptAsAPercent>
+							<LesseeResidualKeptAsAPercent>false</LesseeResidualKeptAsAPercent>
+							<ResidualAsPercentOfCost>0.3130137</ResidualAsPercentOfCost>
+							<LesseeResidualPercentOfCost>0</LesseeResidualPercentOfCost>
+							<Re-Lease>false</Re-Lease>
+							<OriginalCost>0</OriginalCost>
+							<OriginalDeliveryDate>2000-01-01</OriginalDeliveryDate>
+							<FederalAssetTax>
+								<ResidualPctTaxable>1</ResidualPctTaxable>
+								<Re-LeaseTaxesPayable>0</Re-LeaseTaxesPayable>
+								<Re-LeaseSpecifyDeferredTax>false</Re-LeaseSpecifyDeferredTax>
+								<Re-LeaseSpecifiedDeferredTax>0</Re-LeaseSpecifiedDeferredTax>
+							</FederalAssetTax>
+							<FederalDepreciation>
+								<Method>MACRS</Method>
+								<StartDate>2003-07-15</StartDate>
+								<PercentDepreciable>1</PercentDepreciable>
+								<Term>5</Term>
+								<Salvage>0</Salvage>
+								<ADRConvention>Half-year</ADRConvention>
+								<AdditionalYearOne>0.3</AdditionalYearOne>
+							</FederalDepreciation>
+							<BookDepreciation>
+								<Method>Str line, to end</Method>
+								<StartDate>2003-07-15</StartDate>
+								<PercentDepreciable>1</PercentDepreciable>
+								<Term>5</Term>
+								<Salvage>782534.25</Salvage>
+								<ADRConvention>Facts &amp; circ</ADRConvention>
+								<AdditionalYearOne>0</AdditionalYearOne>
+							</BookDepreciation>
+						</Asset>
+					</Assets>
+					<Rents>
+						<Rent index="0">
+							<AutoFunding>Deliveries</AutoFunding>
+							<FedTaxablePct>1</FedTaxablePct>
+							<DefaultBalancingFor>Rates</DefaultBalancingFor>
+							<DefaultBalancingHow>Proportional</DefaultBalancingHow>
+							<SkipMethod>Zero</SkipMethod>
+							<SkipPaymentAmount>0</SkipPaymentAmount>
+							<AssociationIndex>0</AssociationIndex>
+							<AdjustOnTarget>true</AdjustOnTarget>
+							<AdjustWhileEditingCost>true</AdjustWhileEditingCost>
+							<AdjustWhileTargetingCost>false</AdjustWhileTargetingCost>
+							<CompoundMonthly>false</CompoundMonthly>
+							<FirstStartAccrual>2003-07-15</FirstStartAccrual>
+							<AssociationMethod>All</AssociationMethod>
+							<SumOfPayments>2098332.48175412</SumOfPayments>
+							<CashflowSteps>
+								<CashflowStep index="0">
+									<NumberOfPayments>60</NumberOfPayments>
+									<DaysInPeriod>30</DaysInPeriod>
+									<Periodicity>Monthly</Periodicity>
+									<StartAccrual>2003-07-15</StartAccrual>
+									<EndAccrual>2008-07-15</EndAccrual>
+									<FirstPaymentDate>2003-07-15</FirstPaymentDate>
+									<StartAccrualActual>2003-07-15</StartAccrualActual>
+									<EndAccrualActual>2008-07-15</EndAccrualActual>
+									<Type>Payment</Type>
+									<IsStub>false</IsStub>
+									<IsAdvance>true</IsAdvance>
+									<Rate>-0.00000000000000092107583709249</Rate>
+									<Amount>34972.2080292353</Amount>
+									<AmountLocked>false</AmountLocked>
+									<RateLocked>false</RateLocked>
+									<SuperTRUMPCreated>false</SuperTRUMPCreated>
+									<PaymentTiming>Advance</PaymentTiming>
+								</CashflowStep>
+							</CashflowSteps>
+							<Structure>Level</Structure>
+							<Disabled>false</Disabled>
+						</Rent>
+					</Rents>
+					<Fees>
+						<Fee index="0">
+							<Description>Residual Insurance Premium</Description>
+							<Amount>4679.14946527245</Amount>
+							<FeeDate>2003-07-15</FeeDate>
+							<IsAnExpense>true</IsAnExpense>
+							<OperatingAccountingMethod>Straight-line</OperatingAccountingMethod>
+							<STCreated>false</STCreated>
+							<AdjustOnTarget>true</AdjustOnTarget>
+							<Inactive>false</Inactive>
+							<ApplyFSC>false</ApplyFSC>
+							<IsIDC>false</IsIDC>
+							<StCreationID>0</StCreationID>
+							<Nocasheffect>false</Nocasheffect>
+							<Notaxeffect>false</Notaxeffect>
+							<KeptAsAPercent>true</KeptAsAPercent>
+							<PercentOfTotalCost>0.001871659786109</PercentOfTotalCost>
+							<Re-Lease>false</Re-Lease>
+							<IncludeInGSTBase>false</IncludeInGSTBase>
+							<IncludeInPSTBase>false</IncludeInPSTBase>
+							<FederalDepreciation>
+								<Method>Str line, to end</Method>
+								<StartDate>2003-07-15</StartDate>
+								<PercentDepreciable>1</PercentDepreciable>
+								<Term>5</Term>
+								<Salvage>0</Salvage>
+								<ADRConvention>Facts &amp; circ</ADRConvention>
+							</FederalDepreciation>
+						</Fee>
+					</Fees>
+					<Yields>
+						<Yield index="0">
+							<IsOn>true</IsOn>
+							<Name>FINANCE MARGIN</Name>
+							<YMeth2>P</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.059400000370338</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0.026946</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.07</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>true</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.019618443223869</NAT>
+							<EAT>0.019912909495787</EAT>
+							<NPT>0.032454000370338</NPT>
+							<EPT>0.03294112406251</EPT>
+							<SpreadBaseYield>0.059400000370338</SpreadBaseYield>
+							<SpreadIndexDescription>Cost of Funds</SpreadIndexDescription>
+							<SpreadIndexRate>0.026946</SpreadIndexRate>
+							<SpreadIndexDate>2001-11-24</SpreadIndexDate>
+						</Yield>
+						<Yield index="1">
+							<IsOn>true</IsOn>
+							<Name>Economic Yield</Name>
+							<YMeth2>7</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0</SinkingFundRate>
+							<Compounded>End-of-month interest</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.0594</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.035907300223869</NAT>
+							<EAT>0.036504179175766</EAT>
+							<NPT>0.059400000370338</NPT>
+							<EPT>0.060387393177446</EPT>
+						</Yield>
+						<Yield index="2">
+							<IsOn>true</IsOn>
+							<Name>Economic ROI</Name>
+							<YMeth2>8</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.02994</SinkingFundRate>
+							<Compounded>Periodic</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0.035907300223909</BorrowingRate>
+							<LendingRate>0.011459902020447</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.015</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.011459902020447</NAT>
+							<EAT>0.011520286665067</EAT>
+							<NPT>0.018957654293543</NPT>
+							<EPT>0.01905754617877</EPT>
+						</Yield>
+						<Yield index="3">
+							<IsOn>true</IsOn>
+							<Name>Book Yield</Name>
+							<YMeth2>9</YMeth2>
+							<Array>PTCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0</SinkingFundRate>
+							<Compounded>Monthly</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.1</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>true</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.027472744362926</NAT>
+							<EAT>0.028052285058272</EAT>
+							<NPT>0.045447054363816</NPT>
+							<EPT>0.046405765191518</EPT>
+						</Yield>
+						<Yield index="4">
+							<IsOn>true</IsOn>
+							<Name>Book ROI</Name>
+							<YMeth2>B</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0.02994</SinkingFundRate>
+							<Compounded>Monthly</Compounded>
+							<IsKnown>true</IsKnown>
+							<BorrowingRate>0</BorrowingRate>
+							<LendingRate>0</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>false</CalculateOnEBO>
+							<TargetValue>0.015</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+							<NAT>0.01158000039216</NAT>
+							<EAT>0.011641659375328</EAT>
+							<NPT>0.019156328192159</NPT>
+							<EPT>0.019258328164314</EPT>
+						</Yield>
+						<Yield index="5">
+							<IsOn>true</IsOn>
+							<Name>EBO Economic ROI</Name>
+							<YMeth2>8</YMeth2>
+							<Array>ATCF</Array>
+							<Method>Custom</Method>
+							<SinkingFundRate>0</SinkingFundRate>
+							<Compounded>Monthly</Compounded>
+							<IsKnown>false</IsKnown>
+							<BorrowingRate>0.068830587256957</BorrowingRate>
+							<LendingRate>0.015000000033586</LendingRate>
+							<Leverage>0</Leverage>
+							<UseVariableInternalLev>false</UseVariableInternalLev>
+							<CalculateOnEBO>true</CalculateOnEBO>
+							<TargetValue>0.07</TargetValue>
+							<InternalLoanFedTaxable>1</InternalLoanFedTaxable>
+							<InternalLoanStateTaxable>1</InternalLoanStateTaxable>
+							<CalculatedValueIsPreTax>false</CalculatedValueIsPreTax>
+							<IncludeSecondaryExpenses>false</IncludeSecondaryExpenses>
+						</Yield>
+					</Yields>
+					<PVs>
+						<PV index="0">
+							<IsOn>true</IsOn>
+							<Name>Rent @ IBR</Name>
+							<SolveforPV>true</SolveforPV>
+							<PVArray>8</PVArray>
+							<DateMethod>Delivery: earliest</DateMethod>
+							<Date>1995-04-21</Date>
+							<RateMethod>Lessee's incremental borrowing rate</RateMethod>
+							<Rate>0.08</Rate>
+							<CompoundingMethod>Periodic</CompoundingMethod>
+							<ValueAmount>2047611.36477638</ValueAmount>
+							<ValuePercent>0.81904454591055</ValuePercent>
+							<IsKnown>true</IsKnown>
+							<AdjustRate>false</AdjustRate>
+							<FirstInclude>Guaranteed by lessee, plus</FirstInclude>
+							<SecondInclude>None</SecondInclude>
+							<ThirdInclude>None</ThirdInclude>
+						</PV>
+						<PV index="1">
+							<IsOn>true</IsOn>
+							<Name>Rent @ IIR</Name>
+							<SolveforPV>true</SolveforPV>
+							<PVArray>8</PVArray>
+							<DateMethod>Delivery: earliest</DateMethod>
+							<Date>1995-04-21</Date>
+							<RateMethod>Implicit interest rate</RateMethod>
+							<Rate>0.08</Rate>
+							<CompoundingMethod>Periodic</CompoundingMethod>
+							<ValueAmount>1878189.5809123</ValueAmount>
+							<ValuePercent>0.75127583236492</ValuePercent>
+							<IsKnown>true</IsKnown>
+							<AdjustRate>false</AdjustRate>
+							<FirstInclude>Guaranteed to lessor, plus</FirstInclude>
+							<SecondInclude>None</SecondInclude>
+							<ThirdInclude>None</ThirdInclude>
+						</PV>
+						<PV index="2">
+							<IsOn>true</IsOn>
+							<Name>Rent &amp; Res</Name>
+							<SolveforPV>true</SolveforPV>
+							<PVArray>8</PVArray>
+							<DateMethod>Delivery: earliest</DateMethod>
+							<Date>1995-04-21</Date>
+							<RateMethod>Lessee's incremental borrowing rate</RateMethod>
+							<Rate>0.1</Rate>
+							<CompoundingMethod>Periodic</CompoundingMethod>
+							<ValueAmount>2791996.46830742</ValueAmount>
+							<ValuePercent>1.11679858732297</ValuePercent>
+							<IsKnown>true</IsKnown>
+							<AdjustRate>false</AdjustRate>
+							<FirstInclude>Economic residual, plus</FirstInclude>
+							<SecondInclude>None</SecondInclude>
+							<ThirdInclude>None</ThirdInclude>
+						</PV>
+						<PV index="3">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="4">
+							<IsOn>false</IsOn>
+						</PV>
+						<PV index="5">
+							<IsOn>false</IsOn>
+						</PV>
+					</PVs>
+					<LessorLender>
+						<AMTRate>0.2</AMTRate>
+						<UseAMT>false</UseAMT>
+						<SpreadRemainingAMT>false</SpreadRemainingAMT>
+						<IsFirstYear>false</IsFirstYear>
+						<StartFirstYear>1971-01-01</StartFirstYear>
+						<TaxYearEnd>12</TaxYearEnd>
+						<AMTStart>1995-01-01</AMTStart>
+						<AMTEnd>2000-01-01</AMTEnd>
+						<AccountingPreferences>
+							<MonthlyIncomeBooking>Pro-rated</MonthlyIncomeBooking>
+							<CapitalLeaseIncomeRecogitionMethod>GECC book yield</CapitalLeaseIncomeRecogitionMethod>
+							<CapitalLeaseIncomeRecogitionBase>FAS 13 accounting</CapitalLeaseIncomeRecogitionBase>
+							<CapitalLeaseIncomeRecogitionCompound>Monthly</CapitalLeaseIncomeRecogitionCompound>
+						</AccountingPreferences>
+					</LessorLender>
+					<GEData>
+						<MoneyCost>0.02994</MoneyCost>
+						<MoneyCostMethod>Fixed</MoneyCostMethod>
+						<ExpenseANI>0.0135</ExpenseANI>
+						<GEBusiness>Not Specified</GEBusiness>
+						<InternalEquity>0.1</InternalEquity>
+						<UsingPeriodicMoneyCostTables>false</UsingPeriodicMoneyCostTables>
+						<MoneyCostDate>2003-07-02</MoneyCostDate>
+						<UsingMoneyCostFrom>2000-01-01</UsingMoneyCostFrom>
+						<LayeredLimitMonths>0</LayeredLimitMonths>
+						<SpecifyEquity>true</SpecifyEquity>
+						<SpecifyANI>true</SpecifyANI>
+					</GEData>
+					<Results>
+						<FullTermRate>-0.069019684582404</FullTermRate>
+						<FullTermRateWithResidual>0.04606869202822</FullTermRateWithResidual>
+						<BaseTermRate>-0.069019684582404</BaseTermRate>
+						<BaseTermRateWithResidual>0.046068692028398</BaseTermRateWithResidual>
+						<ImplicitInterestRate>0.04606869202822</ImplicitInterestRate>
+						<CompositeTaxRate>0.3955</CompositeTaxRate>
+						<FirstPaymentDate>1970-02-28</FirstPaymentDate>
+						<NumberOfPayments>0</NumberOfPayments>
+						<LeaseRateFactor>0.013988883211694</LeaseRateFactor>
+						<PaybackPeriod>1970-12-30</PaybackPeriod>
+						<RentIsLessThanDS>0</RentIsLessThanDS>
+						<NetAfterTaxProfit>0</NetAfterTaxProfit>
+						<InternalLoanBorrowingRate>0</InternalLoanBorrowingRate>
+						<InternalLoanLendingRate>0</InternalLoanLendingRate>
+						<InternalLoanLeverage>0</InternalLoanLeverage>
+						<LessorAccountingMethod>Capital: single investor (DFL)</LessorAccountingMethod>
+						<InsuredResidual>0.1871659786109</InsuredResidual>
+						<TransactionEndDate>2008-07-15</TransactionEndDate>
+						<TaxClassification>True tax lease</TaxClassification>
+						<IRSTestResults>passed</IRSTestResults>
+						<IRSUnevenRentTest>passed</IRSUnevenRentTest>
+						<AccountingResults>
+							<LessorAccountingMethod>Capital: single investor (DFL)</LessorAccountingMethod>
+							<BargainPurchaseOptionTest>Passed</BargainPurchaseOptionTest>
+							<LesseeAccountingMethod>Operating</LesseeAccountingMethod>
+						</AccountingResults>
+						<IsConditionalSale>false</IsConditionalSale>
+						<Stream/>
+					</Results>
+					<TargetData>
+						<TypeOfStatistic>Yield</TypeOfStatistic>
+						<StatisticIndex>1</StatisticIndex>
+						<NEPA>Pre-tax nominal</NEPA>
+						<TargetValue>0.0594</TargetValue>
+						<Adjust>Rent</Adjust>
+						<AdjustmentMethod>Proportional</AdjustmentMethod>
+					</TargetData>
+					<YieldIndex>
+						<ConstantRate>0.06</ConstantRate>
+						<IndexMethod>Fixed: term</IndexMethod>
+						<FixedRates>
+							<FixedRate Months="1">0.0232</FixedRate>
+							<FixedRate Months="11">0.0232</FixedRate>
+							<FixedRate Months="12">0.0232</FixedRate>
+							<FixedRate Months="23">0.0232</FixedRate>
+							<FixedRate Months="24">0.0272</FixedRate>
+							<FixedRate Months="35">0.0272</FixedRate>
+							<FixedRate Months="36">0.0315</FixedRate>
+							<FixedRate Months="47">0.0315</FixedRate>
+							<FixedRate Months="48">0.0356</FixedRate>
+							<FixedRate Months="59">0.0356</FixedRate>
+							<FixedRate Months="60">0.0396</FixedRate>
+							<FixedRate Months="71">0.0396</FixedRate>
+							<FixedRate Months="72">0.0415</FixedRate>
+							<FixedRate Months="83">0.0415</FixedRate>
+							<FixedRate Months="84">0.0434</FixedRate>
+							<FixedRate Months="95">0.0434</FixedRate>
+							<FixedRate Months="96">0.0443</FixedRate>
+							<FixedRate Months="107">0.0443</FixedRate>
+							<FixedRate Months="108">0.0452</FixedRate>
+							<FixedRate Months="119">0.0452</FixedRate>
+							<FixedRate Months="120">0.0461</FixedRate>
+							<FixedRate Months="150">0.0461</FixedRate>
+						</FixedRates>
+						<FloatingRates>
+							<FloatingRate Months="1">0.05375</FloatingRate>
+							<FloatingRate Months="3">0.05563</FloatingRate>
+							<FloatingRate Months="6">0.0575</FloatingRate>
+						</FloatingRates>
+					</YieldIndex>
+					<ParameterFileVersion>8651</ParameterFileVersion>
+					<ParameterFileCustomVersion>20</ParameterFileCustomVersion>
+					<ParameterFileSTName>Carlo 7-1-03 5 Year Fixed Lease 30% bonus 346 spr</ParameterFileSTName>
+				</Transaction>
+			</SuperTRUMP>
+		</PRM_XML>
+	</PRM_FILE>
+</PRM_FILE_LIST>

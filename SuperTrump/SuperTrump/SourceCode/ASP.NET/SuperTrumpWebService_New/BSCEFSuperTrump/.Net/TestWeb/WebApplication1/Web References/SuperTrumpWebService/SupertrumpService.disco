@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx?wsdl" docRef="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" xmlns:q1="http://tempuri.org/" binding="q1:IClientServiceSoapPort" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" xmlns:q2="http://tempuri.org/" binding="q2:ISuperTrumpServiceSoapPort" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" xmlns:q3="http://tempuri.org/" binding="q3:IClientServiceSoapPort1" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://soacluster1.dev.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" xmlns:q4="http://tempuri.org/" binding="q4:ISuperTrumpServiceSoapPort1" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration>
+<appSettings>
+    <DebugLogFilePath_LogForNet>E:\InternalSites\SuperTrump\Components_NET\bin\log4net_DLL.config</DebugLogFilePath_LogForNet>
+    <DebugLevel>3</DebugLevel>
+    <DebugFile>D:\LogFiles\SuperTRUMP\BSCEFSuperTrumpLog.txt</DebugFile>
+    <MaxDebugFileSize>10000000</MaxDebugFileSize>
+    <PRMFilePath>D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\Debug</PRMFilePath>
+    <ReportTemplatePath>D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\ReportTemplates</ReportTemplatePath>
+    <SchemaFilePath>D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\Schemas</SchemaFilePath>
+    <PRMTemplatePath>D:\GE GDC Working Folder\pulak.mishra\Pricing\SuperTRUMPWebService\BSCEFSuperTrump_latest\.Net\BusinessServices\PRMTemplates</PRMTemplatePath>
+    <ResponseQueueManager>HUBDEV</ResponseQueueManager>
+    <ResponseQueue>NT.SUPERTRUMP.REQUEST.DEV</ResponseQueue>
+    <RequestQueueManager>HUBDEV</RequestQueueManager>
+    <RequestQueue>NT.SUPERTRUMP.REQUEST.DEV</RequestQueue>
+</appSettings>
+</configuration>

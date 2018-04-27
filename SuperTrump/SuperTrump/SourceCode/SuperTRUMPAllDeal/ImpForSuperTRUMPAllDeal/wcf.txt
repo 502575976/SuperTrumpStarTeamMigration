@@ -1,0 +1,98 @@
+http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?wsdl
+Domain - comfin
+\\cmfalgadmts1.comfin.ge.com\
+
+PRM PAth - \\comfinciohnas.comfin.ge.com\CIOHShared$\PRICING_ROI\DEV\ST_ALL_DEAL
+
+PRM Server Name -- CEFSTCTDMTCM1.comfin.ge.com
+
+New PRM file Path - \\CMFCIOHQWINWEB3\internalsites\commonsite\bussvcs\ST_All_DEAL_PRMS
+
+
+Oracle Database Setting Path - - - - - - - - D:\oracle\ora92\network\ADMIN - - - -  tnsnames file
+
+
+tarique -- 5063
+
+
+<ResidualUpside>0.092021399890335</ResidualUpside>
+
+open ge helpdesk
+Click request and order
+click for IT personnel only
+click starteam / caliberRM / team define request form
+select problem ticket
+
+Ge Helpdesk ticket no - G05148888 for unlock moneycost files.
+
+
+
+MoneyCost INI file path --  
+C:\StarTeam\MoneyCost\SourceCode\MoneyCost Service\bussvcs\BSMoneyCostAuto\Working
+
+
+
+moneycost Europe File path - 
+\\cmfalgaqapwx.comfin.ge.com\supertrumpftp_QA\SuperTRUMPDev\Europe_MC\CSV
+
+
+Moneycost EXE link----
+\\CMFALGADMTS1.comfin.ge.com\internalsites\cef\MoneyCostSite\EXE\SuperTrumpMoneyCostAuto
+
+
+
+
+select count(*) from TBL_ACCOUNTSCHEDULE_DETAIL;
+select count(*) from TBL_ASSET_DETAIL;
+select count(*) from TBL_STREAM_DETAIL;
+select count(*) from TBL_TEMPLATEMAPPING;
+
+
+truncate table TBL_ACCOUNTSCHEDULE_DETAIL;
+truncate table TBL_ASSET_DETAIL;
+truncate table TBL_STREAM_DETAIL;
+truncate table TBL_STREAM_DETAIL_EXTRACT;
+commit;
+
+
+update TBL_ACCOUNTSCHEDULE_DETAIL set process_flag = 0;
+
+
+
+Please provide the access for below database table for vic_owner schema, tables are created under dwc_owner schema 
+DWC_STG_VIC_ROI
+DWC_VICV_ROI
+DWC_VIC_ROI_BANK
+DWC_VIC_ROI_AUDIT_TRAIL
+DWC_VIC_ROI_BATCH_COUNTER
+DWC_DATE
+DWC_ACCT_SCHDL_PROFILE
+DWC_ACCT_SCHDL_MAX_DUE_DATE
+DWC_ACCT_SCHDL_FACT 
+
+
+
+
+Hi Team,
+ 
+AppWrox Scheduler is not working for MoneyCost QA Process. Please schedule the moneycost QA process so that it can execute on scheduled date.
+
+
+CAse id -  G04966330
+
+  Capital Americas BI Prod Support --- COMF AM OTR BI SUPPORT
+
+
+COMF GL SOU-UNIX Server support  --- queue for unix team
+
+COMF AM L2 Pricing Apps.  ---- my queue
+
+
+http://itg.comfin.ge.com/itg/web/knta/crt/RequestDetail.jsp?REQUEST_ID=279318
+
+My Project name - GECA RTO Web RTS
+
+
+
+DNS Name -  LPM_EFS
+

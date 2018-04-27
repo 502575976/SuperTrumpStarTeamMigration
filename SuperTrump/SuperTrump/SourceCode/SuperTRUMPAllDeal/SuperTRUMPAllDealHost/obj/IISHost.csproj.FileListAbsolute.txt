@@ -1,0 +1,14 @@
+D:\Garima WCF Training\HelloWCF\IISHost\bin\IISHost.dll
+D:\Garima WCF Training\HelloWCF\IISHost\bin\IISHost.pdb
+D:\Garima WCF Training\HelloWCF\IISHost\bin\HelloWCF.dll
+D:\Garima WCF Training\HelloWCF\IISHost\bin\HelloWCF.pdb
+D:\Garima WCF Training\HelloWCF\IISHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Garima WCF Training\HelloWCF\IISHost\obj\Debug\IISHost.dll
+D:\Garima WCF Training\HelloWCF\IISHost\obj\Debug\IISHost.pdb
+D:\WCF\HelloWCF\IISHost\bin\IISHost.dll
+D:\WCF\HelloWCF\IISHost\bin\IISHost.pdb
+D:\WCF\HelloWCF\IISHost\bin\HelloWCF.dll
+D:\WCF\HelloWCF\IISHost\bin\HelloWCF.pdb
+D:\WCF\HelloWCF\IISHost\obj\Debug\ResolveAssemblyReference.cache
+D:\WCF\HelloWCF\IISHost\obj\Debug\IISHost.dll
+D:\WCF\HelloWCF\IISHost\obj\Debug\IISHost.pdb

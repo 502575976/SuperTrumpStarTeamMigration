@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="t9dy58mam_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.cFTPClient">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,187,759" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.New(System.String,System.String,System.String,System.String,System.Int32)" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.RemoteHostFTPServer[]" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.RemotePort[]" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.RemotePath[]" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.RemotePassword[]" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.RemoteUser[]" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.cFTPClient.MessageString[]" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.DownloadFile(System.String,System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.UploadFile(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.UploadFile(System.String,System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.DeleteFile(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.RenameFile(System.String,System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.CreateDirectory(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.RemoveDirectory(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.ReadReply()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.Cleanup()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.ReadLine(System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.SendCommand(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.CreateDataSocket()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.DownloadFile(System.String,System.String,System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.DownloadFile(System.String,System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.DownloadFile(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.SetBinaryMode(System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.Login()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.GetFileSize(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.GetFileList(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.CloseConnection()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.ChangeDirectory(System.String)" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sMes" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_bLoggedIn" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_iRetValue" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_objClientSocket" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_iBytes" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sRemoteHost" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sRemotePath" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sRemoteUser" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sRemotePassword" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sMess" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_iRemotePort" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sReply" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.BLOCK_SIZE" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_aBuffer" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.ASCII" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.flag_bool" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.cFTPClient.m_sMessageString" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.cFTPClient.New()" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.ProjectInstaller">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="216,1,416,175" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.ProjectInstaller.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.ProjectInstaller.ServiceInstaller1" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.ProjectInstaller.ServiceProcessInstaller1" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.ProjectInstaller.components" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.ProjectInstaller.Dispose(System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.ProjectInstaller.New()" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.FileCopySvc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="651,1,293,355" />
+      <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.FileCopySvc.eFileMgrAction" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.GetLastFileWriteDateTime(System.String)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.ManageDirectories()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.Controller(System.Object,System.Timers.ElapsedEventArgs)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.OnStop()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.OnStart(System.String[])" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.InitializeComponent()" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.FileCopySvc.components" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.Main()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.Dispose(System.Boolean)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.New()" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.FileCopySvc.mobjXMLDoc" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.FileCopySvc.mobjTimer" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.FileCopySvc.cFULL_MODULE_NAME" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.FTPDirectories()" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.ManageFile(System.String,System.String,FileCopySvc.FileCopySvc.eFileMgrAction)" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.FileCopySvc.UNCDirectories()" />
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.IConfig">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="216,312,179,95" />
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.IConfig.ServiceSleepInterval[]">
+        <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.IConfig.ServiceSleepInterval[].get_ServiceSleepInterval" />
+      </reference>
+      <reference referencedUin="vbnet:e_property:src:FileCopySvc:FileCopySvc.IConfig.ConfigFile[]">
+        <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.IConfig.ConfigFile[].get_ConfigFile" />
+      </reference>
+    </reference>
+    <reference referencedUin="vbnet:e_class:src:FileCopySvc:FileCopySvc.modFileCopySvc">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="216,426,194,126" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.modFileCopySvc.cFULL_MODULE_NAME" />
+      <reference referencedUin="vbnet:e_method:src:FileCopySvc:FileCopySvc.modFileCopySvc.GetTimeStamp()" />
+      <reference referencedUin="vbnet:e_field:src:FileCopySvc:FileCopySvc.modFileCopySvc.gobjLogger" />
+    </reference>
+  </view>
+</nodeSet>

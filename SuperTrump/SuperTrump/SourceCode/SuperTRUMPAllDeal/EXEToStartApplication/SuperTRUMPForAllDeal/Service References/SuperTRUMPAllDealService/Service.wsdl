@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://www.garimasikarwar.com" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" targetNamespace="http://www.garimasikarwar.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.garimasikarwar.com/Imports">
+      <xsd:import schemaLocation="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?xsd=xsd0" namespace="http://www.garimasikarwar.com" />
+      <xsd:import schemaLocation="http://cmfalgadmts1.comfin.ge.com/SuperTrumpAllDeal/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISuperTRUMPAllDealService_TestSuperTRUMPAllDealService_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestSuperTRUMPAllDealService" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_TestSuperTRUMPAllDealService_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestSuperTRUMPAllDealServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_LoadDWData_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDWData" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_LoadDWData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadDWDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_GenerateInputXML_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateInputXML" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_GenerateInputXML_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerateInputXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_ExecuteServiceFlow_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteServiceFlow" />
+  </wsdl:message>
+  <wsdl:message name="ISuperTRUMPAllDealService_ExecuteServiceFlow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteServiceFlowResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISuperTRUMPAllDealService">
+    <wsdl:operation name="TestSuperTRUMPAllDealService">
+      <wsdl:input wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/TestSuperTRUMPAllDealService" message="tns:ISuperTRUMPAllDealService_TestSuperTRUMPAllDealService_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/TestSuperTRUMPAllDealServiceResponse" message="tns:ISuperTRUMPAllDealService_TestSuperTRUMPAllDealService_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadDWData">
+      <wsdl:input wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/LoadDWData" message="tns:ISuperTRUMPAllDealService_LoadDWData_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/LoadDWDataResponse" message="tns:ISuperTRUMPAllDealService_LoadDWData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerateInputXML">
+      <wsdl:input wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/GenerateInputXML" message="tns:ISuperTRUMPAllDealService_GenerateInputXML_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/GenerateInputXMLResponse" message="tns:ISuperTRUMPAllDealService_GenerateInputXML_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteServiceFlow">
+      <wsdl:input wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/ExecuteServiceFlow" message="tns:ISuperTRUMPAllDealService_ExecuteServiceFlow_InputMessage" />
+      <wsdl:output wsaw:Action="http://www.garimasikarwar.com/ISuperTRUMPAllDealService/ExecuteServiceFlowResponse" message="tns:ISuperTRUMPAllDealService_ExecuteServiceFlow_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

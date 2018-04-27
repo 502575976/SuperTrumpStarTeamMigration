@@ -1,0 +1,137 @@
+St server 7.91
+
+guid: {1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id: StServer.STApplication
+VersionIndependentProgID: StServer.STApplication
+TypeLib: {12E0B8C1-ABA0-11D2-888C-00E02909421D}
+CLSID:{1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid: {1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id: StServer.STTransaction
+VersionIndependentProgID: StServer.STTransaction
+TypeLib: {12E0B8C1-ABA0-11D2-888C-00E02909421D}
+CLSID:{1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid: {12E0B8C1-ABA0-11D2-888C-00E02909421D}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+St server 8.01
+
+guid: {1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id: StServer.STApplication
+VersionIndependentProgID: StServer.STApplication
+TypeLib: {12E0B8C1-ABA0-11D2-888C-00E02909421D}
+CLSID:{1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid: {1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id: StServer.STTransaction
+VersionIndependentProgID: StServer.STTransaction
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+CLSID:{1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid: {12E0B8C1-ABA0-11D2-888C-00E02909421D}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+St server 8 new
+
+guid: {A2DEB525-B10A-46DB-B5EF-D7C7FA1FF97A}
+Prog id: StServer1.STApplication1
+VersionIndependentProgID: StServer1.STApplication1
+TypeLib: {C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+CLSID:  {A2DEB525-B10A-46DB-B5EF-D7C7FA1FF97A}
+
+guid: {B251FF25-4115-4D8F-BD5D-B9D9B2BF656A}
+Prog id: StServer1.STTransaction1
+VersionIndependentProgID: StServer1.STTransaction1
+TypeLib: {C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+CLSID: {B251FF25-4115-4D8F-BD5D-B9D9B2BF656A}
+
+StServer - CEF COM Object Server
+guid: {C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+St server 8 new 12/10/2002
+
+guid:{A2DEB525-B10A-46DB-B5EF-D7C7FA1FF97A}
+Prog id: StServer1.STApplication1
+VersionIndependentProgID: StServer1.STApplication1
+TypeLib: {C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+CLSID: {A2DEB525-B10A-46DB-B5EF-D7C7FA1FF97A}
+
+guid: {B251FF25-4115-4D8F-BD5D-B9D9B2BF656A}
+Prog id: StServer1.STTransaction1
+VersionIndependentProgID: StServer1.STTransaction1
+TypeLib:{C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+CLSID: {B251FF25-4115-4D8F-BD5D-B9D9B2BF656A}
+
+StServer - CEF COM Object Server
+guid:{C8A38A94-44ED-4D06-B7F7-5334CE8D6E02}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GECC-CEF Standard (Beta) ATL DLL Version 8.30
+
+guid:{1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STApplication
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STApplication
+CLSID: {1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid:{1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STTransaction
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STTransaction
+CLSID: {1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GECC-CEF Standard (Beta) ATL DLL Version 8.35
+
+guid:{1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STApplication
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STApplication
+CLSID: {1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid:{1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STTransaction
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STTransaction
+CLSID: {1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GECC-CEF Standard ATL DLL Version 8.32
+
+guid:{1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STApplication
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STApplication
+CLSID: {1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid:{1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STTransaction
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STTransaction
+CLSID: {1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GECC-CEF Standard (Beta) ATL DLL Version 8.60
+
+guid:{1ED22E22-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STApplication
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STApplication
+CLSID: {1ED22E22-A560-11D2-888C-00E02909421D}
+
+guid:{1ED22E24-A560-11D2-888C-00E02909421D}
+Prog id:StServer.STTransaction
+TypeLib:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+VersionIndependentProgID:StServer.STTransaction
+CLSID: {1ED22E24-A560-11D2-888C-00E02909421D}
+
+StServer - CEF COM Object Server
+guid:{12E0B8C1-ABA0-11D2-888C-00E02909421D}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------

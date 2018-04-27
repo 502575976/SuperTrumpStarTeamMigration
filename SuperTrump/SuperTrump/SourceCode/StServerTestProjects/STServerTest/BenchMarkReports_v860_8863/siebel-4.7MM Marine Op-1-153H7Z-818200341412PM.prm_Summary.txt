@@ -1,0 +1,115 @@
+                                                         S U M M A R Y                                                          
+
+                         Prepared Mar-16-2004 18:11 by ............................ your name goes here
+
+================== C A S H   F L O W S ===================            ================== S T A T I S T I C S ===================
+total lending .............   $  4,662,000.00   100.000000%           Composite tax rate ............................... 39.5500
+                               --------------   ----------            
+equity .....................     4,662,000.00   100.000000                                          pre-tax            after-tax
+                               ==============   ==========                                          nominal              nominal
+                                                                                                  ---------              -------
+interest received ..........     1,260,037.73    27.027836            Economic Yield ..              6.7621               4.0877
+principal received .........     4,662,000.00   100.000000            Economic ROI ....                                   0.9584
+                               --------------   ----------            Book Yield ......              6.7500
+total cash in ..............     5,922,037.73   127.027836            Book ROI ........                                   0.9581
+                               ==============   ==========                ( blended money cost rate ........ 3.4300 )
+                                                                      
+equity .....................     4,662,000.00   100.000000            Book yield with balloon ........................... 6.7500
+                               --------------   ----------            Money cost, levered ............................... 3.0870
+total cash out .............     4,662,000.00   100.000000            FINANCE MARGIN .................................... 3.6630
+                               ==============   ==========            
+                                                                      average-life of loan: lending ............... 4.0041 years
+pre-tax cash flow ..........     1,260,037.73    27.027836            average-life of book investment ............. 3.9970 years
+                               --------------   ----------            total book average net investment .......... 18,634,086.49
+taxes paid .................       498,344.92    10.689509            total book gross margin ....................... 684,803.48
+after-tax cash flow ........       761,692.81    16.338327            
+                               ==============   ==========            Full term rate without balloon .................. -14.9951
+                                                                                     with balloon ....................... 6.7500
+money cost (AT) ............       347,729.10     7.458797            Base term rate without balloon .................. -14.9951
+handling & loss (AT) .......       235,423.98     5.049849                           with balloon ....................... 6.7500
+                               --------------   ----------            
+net income .................       178,539.72     3.829681
+                               ==============   ==========
+
+
+
+================================================== L o a n s   L e n d i n g ===================================================
+                                                 #   timing       from          to       rate     type         amount  % of cost
+                                              -------------  ---------------------  ---------  -------  -------------  ---------
+      funding ............... 4,662,000.00                               Sep-15-03             funding  -4,662,000.00 -100.00000
+      payments (60) ......... 5,922,037.73      59  mon arr  Sep-15-03 ->Aug-15-08     6.7500  payment      52,963.35   1.136065
+      credit .................... recourse       1 stub eql  Aug-15-08===Aug-15-08         "   balloon   2,797,200.00L 60.000000
+                                               
+
+=================================================== T a x e s / L e n d e r ====================================================
+                                   month fiscal year ends ............................... Dec
+                                   first year tax payments ........ Rolled up into first date
+------------------------ Federal -------------------------
+tax calculation method ................ Accrual (Arr Only)
+tax estimation method .............................. Level
+                                                          
+ start date      rate              thru     paid   percent
+-----------   -------             -----    -----  --------
+  Jan-01-96   39.5500               Mar      Apr   25.0000
+                                    Jun      Jun   25.0000
+                                    Sep      Sep   25.0000
+                                    Dec      Dec   25.0000
+                                    Dec   12+Mar    0.0000
+
+
+================= R O I   &   O t h e r ==================
+Money cost
+    Pre-tax rate .................................. 3.4300
+    Re-investment rate ............................ 2.2800
+    Use money cost for sinking fund rate .............. No
+    Method .............. Term based with index adjustment
+          Month        Rate
+       --------    --------
+              1      1.1100
+             11      1.1100
+             12      1.1100
+             23      1.1100
+             24      1.5400
+             35      1.5400
+             36      2.0400
+             47      2.0400
+             48      2.5400
+             59      2.5400
+    Use daily/weekly money cost tables ................ No
+
+Internal equity .................................. 10.0000
+Expenses (% of ANI) ............................... 2.0900
+Expenses (% of Cost) .............................. 0.0000
+LTC/Expenses (% of Rent) .......................... 0.0000
+Expenses (Fixed) .................................... 0.00
+Expenses (Fixed Annual) ............................. 0.00
+Loss (% of ANI) ................................... 0.0000
+Do rent index ......................................... No
+Show total book average net investment ............... Yes
+     Use cost less advance rent and security deposit .. No
+Total book gross margin on quick screen ............... No
+
+
+======== Y i e l d   I n d e x =========
+Method ..................... Fixed: term
+Description .............. Cost of Funds
+Date ......................... Nov-24-01
+                       Month        Rate
+                  ----------    --------
+                           1      2.3200
+                          11      2.3200
+                          12      2.3200
+                          23      2.3200
+                          24      2.7200
+                          35      2.7200
+                          36      3.1500
+                          47      3.1500
+                          48      3.5600
+                          59      3.5600
+
+
+================================= N o t e s ==================================
+4 yr T's @ 2.84% according to H.15 on Aug 11, 2003
+
+
+SuperTRUMP 8.60 financial model                              Page 1                                 Ivory Consulting Corporation

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\SuperTrumpNewCode\BusinessServices\bin\SupertrumpService.BusinessServices.dll" total="1" failures="0" not-run="0" date="2008-07-08" time="19:30:06">
+  <environment nunit-version="2.4.7.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Program Files\NUnit 2.4.7\bin" machine-name="BSLGDC-FI373" user="sanjay.srivastava" user-domain="BSLGDCNOD1" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="D:\SuperTrumpNewCode\BusinessServices\bin\SupertrumpService.BusinessServices.dll" success="True" time="1.969" asserts="0">
+    <results>
+      <test-suite name="SupertrumpService" success="True" time="1.953" asserts="0">
+        <results>
+          <test-suite name="BusinessServices" success="True" time="1.953" asserts="0">
+            <results>
+              <test-suite name="ISuperTrumpServiceTestCase" success="True" time="1.938" asserts="0">
+                <results>
+                  <test-case name="SupertrumpService.BusinessServices.ISuperTrumpServiceTestCase.TestGeneratePRMFiles" executed="True" success="True" time="1.891" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

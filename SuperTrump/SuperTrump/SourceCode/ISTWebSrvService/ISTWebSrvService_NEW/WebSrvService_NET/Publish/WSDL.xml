@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<wsdls>
+  <wsdl>
+    <text>
+      DEV:-http://soacluster1.dev.comfin.ge.com/BSCEFSuperTrumpNet/SupertrumpService.asmx
+    </text>
+    <value>
+      http://soacluster1.dev.comfin.ge.com/BSCEFSuperTrumpNet/SupertrumpService.asmx
+    </value>
+  </wsdl>
+  <wsdl>
+    <text>
+      New DEV:-http://cmfalgadmtcm1v.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+    </text>
+    <value>
+      http://cmfalgadmtcm1v.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+    </value>
+  </wsdl>
+  <wsdl>
+    <text>
+      QA:-http://SuperTRUMP.web.qa.comfin.ge.com/BSCEFSupertrumpNET/SupertrumpService.asmx
+    </text>
+    <value>
+      http://SuperTRUMP.web.qa.comfin.ge.com/BSCEFSupertrumpNET/SupertrumpService.asmx
+    </value>
+  </wsdl>
+  <wsdl>
+    <text>
+      New QA:-https://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+    </text>    
+    <value>
+      https://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx
+    </value>
+  </wsdl>
+  <wsdl>
+    <text>
+      PROD:-http://SuperTRUMP.web.comfin.ge.com/BSCEFSupertrumpNET/SupertrumpService.asmx
+    </text>
+    <value>
+      http://SuperTRUMP.web.comfin.ge.com/BSCEFSupertrumpNET/SupertrumpService.asmx
+    </value>
+  </wsdl>  
+</wsdls>

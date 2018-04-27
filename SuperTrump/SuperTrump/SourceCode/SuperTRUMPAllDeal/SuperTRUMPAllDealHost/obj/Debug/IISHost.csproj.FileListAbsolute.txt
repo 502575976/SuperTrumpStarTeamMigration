@@ -1,0 +1,14 @@
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\bin\IISHost.dll
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\bin\IISHost.pdb
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\bin\HelloWCF.dll
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\bin\HelloWCF.pdb
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\obj\Debug\IISHost.dll
+D:\Lalit\Finance\Personal\QA\WCF\WCF\WCF\HelloWCF\IISHost\obj\Debug\IISHost.pdb
+D:\StarTeam\HelloWCF\IISHost\bin\IISHost.dll
+D:\StarTeam\HelloWCF\IISHost\bin\IISHost.pdb
+D:\StarTeam\HelloWCF\IISHost\bin\HelloWCF.dll
+D:\StarTeam\HelloWCF\IISHost\bin\HelloWCF.pdb
+D:\StarTeam\HelloWCF\IISHost\obj\Debug\ResolveAssemblyReference.cache
+D:\StarTeam\HelloWCF\IISHost\obj\Debug\IISHost.dll
+D:\StarTeam\HelloWCF\IISHost\obj\Debug\IISHost.pdb

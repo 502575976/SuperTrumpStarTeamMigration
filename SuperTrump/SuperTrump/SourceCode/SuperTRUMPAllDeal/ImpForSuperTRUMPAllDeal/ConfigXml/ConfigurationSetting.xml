@@ -1,0 +1,34 @@
+<MainNode> 
+  <CSVConfigurationFileName>E:\internalsites\cef\SuperTrumpAllDeal\ConfigXml\CSVConfiguration.xml</CSVConfigurationFileName>
+  <ConnectionstringOracleClientProvider>User ID=vic_roi;Password=vic_roi;Data Source=mmfd01;</ConnectionstringOracleClientProvider>
+  <ConnectionstringOLEDBProvider>Provider=MSDAORA.1;User ID=vic_roi;Password=vic_roi;Data Source=mmfd01;Persist Security Info=False</ConnectionstringOLEDBProvider>
+  <AttachmentRequiredinMailFlag>True</AttachmentRequiredinMailFlag>
+  <SmtpClient>mail.ad.ge.com</SmtpClient>
+  <MailFrom>SuperTRUMPAllDealAdmin@ge.com</MailFrom>
+  <MailTo>sumit.sharma2@ge.com;atul.sinha@ge.com</MailTo>
+  <EmailMessageTitle>SuperTRUMP For AllDeal Status Mail</EmailMessageTitle>
+  <LogFilePath>E:\\internalsites\\cef\\SuperTrumpAllDeal\\LogFile\\SuperTRUMPForAllDeal_DebugLogFile.txt</LogFilePath>
+  <TempLogFilePath>E:\\internalsites\\cef\\SuperTrumpAllDeal\\LogFile\\DebugLogFile.txt</TempLogFilePath>
+  <WCFUserName>992000016</WCFUserName>
+  <WCFPassword>gf6eD8xp</WCFPassword>
+  <WCFDomain>Comfin</WCFDomain>
+  <InputOutputFolderDeleted>No</InputOutputFolderDeleted>
+  <InputXmlPath>E:\internalsites\cef\SuperTrumpAllDeal\Transform\InputXml\</InputXmlPath>
+  <LeaseXSLTPath>E:\internalsites\cef\SuperTrumpAllDeal\Transform\Xslt\LeaseXSLT.xsl</LeaseXSLTPath>
+  <OutputXmlPath>E:\internalsites\cef\SuperTrumpAllDeal\Transform\OutputXml\</OutputXmlPath>
+  <CSVDestinationPath>E:\internalsites\cef\SuperTrumpAllDeal\InputCSV\</CSVDestinationPath>
+  <CSVRemotePort>21</CSVRemotePort>  
+  <CSVRemoteHostFTPServer>detlus.comfin.ge.com</CSVRemoteHostFTPServer>
+  <CSVRemoteUser>ftpuser</CSVRemoteUser>
+  <CSVRemotePassword>te1234st</CSVRemotePassword>  
+  <!--<CSVRemoteUser>992000016</CSVRemoteUser>
+  <CSVRemoteHostFTPServer>cmfalgaqapwx.comfin.ge.com</CSVRemoteHostFTPServer>
+  <CSVRemotePassword>gf6eD8xp</CSVRemotePassword>
+  <CSVSourcePath>/supertrumpftp_QA/SuperTRUMPDev/MoneyCost/DatFiles/</CSVSourcePath>
+  <CSVRemoteHostFTPServer>3.154.180.200</CSVRemoteHostFTPServer>    
+  <CSVSourcePath>/supertrumpftp_QA/SuperTRUMPDev/MoneyCost/DatFiles/</CSVSourcePath>
+  <CSVRemoteUser>ftpuser</CSVRemoteUser>
+  <CSVRemotePassword>welcome</CSVRemotePassword>-->
+  <CSVSourcePath>/ap02d/cfdw/Informatica/Scripts/BTEQ/EXTRNL</CSVSourcePath>
+  <DATFileList>Account_Schedule.dat,Stream_Feed.dat,Asset_feed.dat,Residual.dat</DATFileList >
+</MainNode>

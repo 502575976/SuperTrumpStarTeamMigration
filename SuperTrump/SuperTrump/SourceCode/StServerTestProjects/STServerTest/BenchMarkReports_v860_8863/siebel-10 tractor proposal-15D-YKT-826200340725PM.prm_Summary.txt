@@ -1,0 +1,130 @@
+                                                         S U M M A R Y                                                          
+
+                         Prepared Mar-16-2004 18:11 by ............................ your name goes here
+
+================== C A S H   F L O W S ===================            ================== S T A T I S T I C S ===================
+asset cost ................   $  1,045,000.00   100.000000%           Composite tax rate ............................... 39.5500
+fees paid ..................         7,837.50     0.750000            Tax treatment ............................. True tax lease
+                               --------------   ----------            FAS 13 for lessor (default).Capital: single investor (DFL)
+equity .....................     1,052,837.50   100.750000               Guaranteed residual ........................... 20.0000
+                               ==============   ==========            FAS 13 for lessee ................................ Capital
+                                                                      
+rent .......................       964,075.20    92.256000                                          pre-tax            after-tax
+residual ...................       209,000.00    20.000000                                          nominal              nominal
+                               --------------   ----------                                        ---------              -------
+total cash in ..............     1,173,075.20   112.256000            Economic Yield ..              7.0036               4.2337
+                               ==============   ==========            Economic ROI ....                                   1.6978
+                                                                      Book Yield ......              4.7492
+equity .....................     1,052,837.50   100.750000            Book ROI ........                                   1.7006
+                               --------------   ----------                ( blended money cost rate ........ 3.5710 )
+total cash out .............     1,052,837.50   100.750000            
+                               ==============   ==========            Economic yield .................................... 7.0036
+                                                                      Money cost, levered ............................... 3.2139
+pre-tax cash flow ..........       120,237.70    11.506000            FINANCE MARGIN .................................... 3.7897
+                               --------------   ----------            
+taxes paid .................        47,554.01     4.550623            PV on Sep-01-03 of Rent @ IBR
+after-tax cash flow ........        72,683.69     6.955377                      at 1.0000% ........... 1,146,258.05   109.689766
+                               ==============   ==========               on Sep-01-03 of Rent @ IIR
+                                                                                at 5.0844% ........... 1,045,000.00   100.000000
+money cost (AT) ............        33,207.97     3.177796               on Sep-01-03 of Rent & Res
+handling & loss (AT) .......        10,352.13     0.990635                      at 1.0000% ........... 1,146,258.05   109.689766
+                               --------------   ----------            
+net income .................        29,123.59     2.786946            average-life of book investment ............. 1.6266 years
+                               ==============   ==========            total book average net investment ........... 1,712,511.73
+                                                                      total book gross margin ........................ 65,303.09
+                                                                      
+                                                                      implicit interest rate ............................ 5.0844
+                                                                      Full term rate without residual .................. -4.0530
+                                                                                     with residual ...................... 5.0844
+                                                                      Base term rate without residual .................. -4.0530
+                                                                                     with residual ...................... 5.0844
+                                                                      
+
+
+========================================================= A s s e t s ==========================================================
+               cost   delivery    funding      residual        %       date    description                             ADR class
+      -------------  ---------  ---------  --------------------------------    -------------------------------------------------
+       1,045,000.00  Sep-01-03  Sep-01-03    209,000.00  20.0000  Sep-01-07      
+
+      --------------------------- Depreciation ----------------------------                     
+            start date               method     term   salvage   convention                     
+            ----------   ------------------   ------   -------   ----------                     
+       Fed   Sep-01-03    MACRS (DB/SL 200)    3.000     0.000    Half-year                     
+        Additional first year..50.0000
+
+----------------------- Residual Guarantee ------------------------
+         method      guaranteed         %    unguaranteed         %
+       --------    ----------------------    ----------------------
+           TRAC      209,000.00   20.0000            0.00    0.0000
+
+
+=========================================================== F e e s ============================================================
+       --------------------- Cash ---------------------     --------------------------- Amortization ---------------------------
+               amount    % of cost   date paid     type          start date               method     term   salvage   convention
+       --------------   ----------  ----------  -------          ----------   ------------------   ------   -------   ----------
+             7,837.50     0.750000   Sep-01-03  Expense     Fed   Sep-01-03     Str line, to end    4.000     0.000 Facts & circ
+                                                       
+
+========================================================== R e n t s ===========================================================
+      commencement date ........ Sep-01-03       #   timing       from          to    1st pmt     type         amount  % of cost
+                                              -------------  ---------------------  ---------  -------  -------------  ---------
+      payments ................ 964,075.20      48  mon adv  Sep-01-03<- Sep-01-07  Sep-01-03  payment      20,084.90   1.922000
+                                               
+
+===================== G e n e r a l ======================
+Commencement date .............................. Sep-01-03
+Lessor's sinking fund rate (PT) ................... 2.2800
+Lessee's inc. borr. rate (PT) ..................... 1.0000
+Default residual sale delay (days) ..................... 0
+
+
+================= R O I   &   O t h e r ==================
+Money cost
+    Pre-tax rate .................................. 3.5710
+    Re-investment rate ............................ 2.2800
+    Use money cost for sinking fund rate .............. No
+    Method .............. Term based with index adjustment
+          Month        Rate
+       --------    --------
+              1      1.3000
+             11      1.3000
+             12      1.3000
+             23      1.3000
+             24      1.8400
+             35      1.8400
+             36      2.4300
+             47      2.4300
+             48      2.8900
+    Use daily/weekly money cost tables ................ No
+
+Internal equity .................................. 10.0000
+Expenses (% of ANI) ............................... 1.0000
+Expenses (% of Cost) .............................. 0.0000
+LTC/Expenses (% of Rent) .......................... 0.0000
+Expenses (Fixed) .................................... 0.00
+Expenses (Fixed Annual) ............................. 0.00
+Loss (% of ANI) ................................... 0.0000
+Do rent index ......................................... No
+Show total book average net investment ............... Yes
+     Use cost less advance rent and security deposit .. No
+Total book gross margin on quick screen ............... No
+
+
+======== Y i e l d   I n d e x =========
+Method ..................... Fixed: term
+Description .............. Cost of Funds
+Date ......................... Nov-24-01
+                       Month        Rate
+                  ----------    --------
+                           1      2.3200
+                          11      2.3200
+                          12      2.3200
+                          23      2.3200
+                          24      2.7200
+                          35      2.7200
+                          36      3.1500
+                          47      3.1500
+                          48      3.5600
+
+
+SuperTRUMP 8.60 financial model                              Page 1                                 Ivory Consulting Corporation

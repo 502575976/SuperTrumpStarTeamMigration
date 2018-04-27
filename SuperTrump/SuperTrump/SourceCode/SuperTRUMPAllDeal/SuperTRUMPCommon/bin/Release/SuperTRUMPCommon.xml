@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SuperTRUMPCommon
+</name>
+</assembly>
+<members>
+<member name="M:SuperTRUMPCommon.BSVICROICommon.SetLog4Net">
+	<summary>
+ Used to create log file
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:SuperTRUMPCommon.BSVICROICommon.ReadConfigurationFileValue(System.String)">
+	<summary>
+ Used to get configuration file entry for corresponding tagname, pass as a parameter.
+ </summary>
+	<param name="strTagName">Tag Name</param>
+	<returns>string</returns>
+	<remarks></remarks>
+</member><member name="M:SuperTRUMPCommon.BSVICROICommon.ReadRegistry(System.String)">
+	<summary>
+ Used to read registry
+ </summary>
+	<param name="astrRegFullKeyName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

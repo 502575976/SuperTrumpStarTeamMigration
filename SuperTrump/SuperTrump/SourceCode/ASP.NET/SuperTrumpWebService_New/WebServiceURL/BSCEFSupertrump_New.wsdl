@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Ping">
+        <s:complexType />
+      </s:element>
+      <s:element name="PingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PingResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessMQMessage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrMQMsgInfoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessMQMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessMQMessageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessPricingRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPricingRequestXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ProcessPricingRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ProcessPricingRequestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertPRMToXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPRMFileListXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertPRMToXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertPRMToXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPRMInfoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneratePRMFilesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAmortizationSchedule">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPRMFileListXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAmortizationScheduleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAmortizationScheduleResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPricingReports">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPricingRepInfoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPricingReportsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPricingReportsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPRMParams">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrPRMParamsInfoXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPRMParamsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPRMParamsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModifyPRMFiles">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrModifyPRMFilesXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModifyPRMFilesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModifyPRMFilesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunAdHocXMLInOutQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrXMLInOutQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RunAdHocXMLInOutQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RunAdHocXMLInOutQueryResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFilesForPmtStruct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrXMLInOutQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFilesForPmtStructResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneratePRMFilesForPmtStructResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFilesForPmtStruct2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="astrXMLInOutQuery" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneratePRMFilesForPmtStruct2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneratePRMFilesForPmtStruct2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PingSoapIn">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="PingSoapOut">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProcessMQMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcessMQMessage" />
+  </wsdl:message>
+  <wsdl:message name="ProcessMQMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessMQMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="ProcessPricingRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:ProcessPricingRequest" />
+  </wsdl:message>
+  <wsdl:message name="ProcessPricingRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:ProcessPricingRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertPRMToXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertPRMToXML" />
+  </wsdl:message>
+  <wsdl:message name="ConvertPRMToXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertPRMToXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFiles" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAmortizationScheduleSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAmortizationSchedule" />
+  </wsdl:message>
+  <wsdl:message name="GetAmortizationScheduleSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAmortizationScheduleResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPricingReportsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPricingReports" />
+  </wsdl:message>
+  <wsdl:message name="GetPricingReportsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPricingReportsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPRMParamsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPRMParams" />
+  </wsdl:message>
+  <wsdl:message name="GetPRMParamsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPRMParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModifyPRMFilesSoapIn">
+    <wsdl:part name="parameters" element="tns:ModifyPRMFiles" />
+  </wsdl:message>
+  <wsdl:message name="ModifyPRMFilesSoapOut">
+    <wsdl:part name="parameters" element="tns:ModifyPRMFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="RunAdHocXMLInOutQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:RunAdHocXMLInOutQuery" />
+  </wsdl:message>
+  <wsdl:message name="RunAdHocXMLInOutQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:RunAdHocXMLInOutQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesForPmtStructSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFilesForPmtStruct" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesForPmtStructSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFilesForPmtStructResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesForPmtStruct2SoapIn">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFilesForPmtStruct2" />
+  </wsdl:message>
+  <wsdl:message name="GeneratePRMFilesForPmtStruct2SoapOut">
+    <wsdl:part name="parameters" element="tns:GeneratePRMFilesForPmtStruct2Response" />
+  </wsdl:message>
+  <wsdl:portType name="IClientServiceSoapPort">
+    <wsdl:operation name="Ping">
+      <wsdl:input message="tns:PingSoapIn" />
+      <wsdl:output message="tns:PingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessMQMessage">
+      <wsdl:input message="tns:ProcessMQMessageSoapIn" />
+      <wsdl:output message="tns:ProcessMQMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessPricingRequest">
+      <wsdl:input message="tns:ProcessPricingRequestSoapIn" />
+      <wsdl:output message="tns:ProcessPricingRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ISuperTrumpServiceSoapPort">
+    <wsdl:operation name="ConvertPRMToXML">
+      <wsdl:input message="tns:ConvertPRMToXMLSoapIn" />
+      <wsdl:output message="tns:ConvertPRMToXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFiles">
+      <wsdl:input message="tns:GeneratePRMFilesSoapIn" />
+      <wsdl:output message="tns:GeneratePRMFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAmortizationSchedule">
+      <wsdl:input message="tns:GetAmortizationScheduleSoapIn" />
+      <wsdl:output message="tns:GetAmortizationScheduleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPricingReports">
+      <wsdl:input message="tns:GetPricingReportsSoapIn" />
+      <wsdl:output message="tns:GetPricingReportsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPRMParams">
+      <wsdl:input message="tns:GetPRMParamsSoapIn" />
+      <wsdl:output message="tns:GetPRMParamsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPRMFiles">
+      <wsdl:input message="tns:ModifyPRMFilesSoapIn" />
+      <wsdl:output message="tns:ModifyPRMFilesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RunAdHocXMLInOutQuery">
+      <wsdl:input message="tns:RunAdHocXMLInOutQuerySoapIn" />
+      <wsdl:output message="tns:RunAdHocXMLInOutQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct">
+      <wsdl:input message="tns:GeneratePRMFilesForPmtStructSoapIn" />
+      <wsdl:output message="tns:GeneratePRMFilesForPmtStructSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct2">
+      <wsdl:input message="tns:GeneratePRMFilesForPmtStruct2SoapIn" />
+      <wsdl:output message="tns:GeneratePRMFilesForPmtStruct2SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IClientServiceSoapPort" type="tns:IClientServiceSoapPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap:operation soapAction="http://tempuri.org/Ping" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessMQMessage">
+      <soap:operation soapAction="http://tempuri.org/ProcessMQMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessPricingRequest">
+      <soap:operation soapAction="http://tempuri.org/ProcessPricingRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ISuperTrumpServiceSoapPort" type="tns:ISuperTrumpServiceSoapPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConvertPRMToXML">
+      <soap:operation soapAction="http://tempuri.org/ConvertPRMToXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFiles">
+      <soap:operation soapAction="http://tempuri.org/GeneratePRMFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAmortizationSchedule">
+      <soap:operation soapAction="http://tempuri.org/GetAmortizationSchedule" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPricingReports">
+      <soap:operation soapAction="http://tempuri.org/GetPricingReports" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRMParams">
+      <soap:operation soapAction="http://tempuri.org/GetPRMParams" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPRMFiles">
+      <soap:operation soapAction="http://tempuri.org/ModifyPRMFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunAdHocXMLInOutQuery">
+      <soap:operation soapAction="http://tempuri.org/RunAdHocXMLInOutQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct">
+      <soap:operation soapAction="http://tempuri.org/GeneratePRMFilesForPmtStruct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct2">
+      <soap:operation soapAction="http://tempuri.org/GeneratePRMFilesForPmtStruct2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="IClientServiceSoapPort1" type="tns:IClientServiceSoapPort">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Ping">
+      <soap12:operation soapAction="http://tempuri.org/Ping" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessMQMessage">
+      <soap12:operation soapAction="http://tempuri.org/ProcessMQMessage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessPricingRequest">
+      <soap12:operation soapAction="http://tempuri.org/ProcessPricingRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ISuperTrumpServiceSoapPort1" type="tns:ISuperTrumpServiceSoapPort">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConvertPRMToXML">
+      <soap12:operation soapAction="http://tempuri.org/ConvertPRMToXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFiles">
+      <soap12:operation soapAction="http://tempuri.org/GeneratePRMFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAmortizationSchedule">
+      <soap12:operation soapAction="http://tempuri.org/GetAmortizationSchedule" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPricingReports">
+      <soap12:operation soapAction="http://tempuri.org/GetPricingReports" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPRMParams">
+      <soap12:operation soapAction="http://tempuri.org/GetPRMParams" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyPRMFiles">
+      <soap12:operation soapAction="http://tempuri.org/ModifyPRMFiles" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RunAdHocXMLInOutQuery">
+      <soap12:operation soapAction="http://tempuri.org/RunAdHocXMLInOutQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct">
+      <soap12:operation soapAction="http://tempuri.org/GeneratePRMFilesForPmtStruct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneratePRMFilesForPmtStruct2">
+      <soap12:operation soapAction="http://tempuri.org/GeneratePRMFilesForPmtStruct2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SupertrumpService">
+    <wsdl:port name="IClientServiceSoapPort" binding="tns:IClientServiceSoapPort">
+      <soap:address location="http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ISuperTrumpServiceSoapPort" binding="tns:ISuperTrumpServiceSoapPort">
+      <soap:address location="http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="IClientServiceSoapPort1" binding="tns:IClientServiceSoapPort1">
+      <soap12:address location="http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ISuperTrumpServiceSoapPort1" binding="tns:ISuperTrumpServiceSoapPort1">
+      <soap12:address location="http://bscefsupertrump.qa.comfin.ge.com/BSCEFSuperTRUMPNET/SupertrumpService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

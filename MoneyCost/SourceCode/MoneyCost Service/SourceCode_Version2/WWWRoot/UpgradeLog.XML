@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MoneyCostWeb">
+</Property><Property Name="Solution File" Value="C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\MoneyCostWeb.sln">
+</Property><Property Name="Date" Value="Friday, September 24, 2010">
+</Property><Property Name="Time" Value="19:59:17 PM">
+</Property></Properties><Event ErrorLevel="0" Project="MoneyCostWeb" Source="MoneyCostWeb.vbproj" Description="Project file successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\MoneyCostWeb.vbproj">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="MoneyCostWeb.vbproj.user" Description="Project user file successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\MoneyCostWeb.vbproj.user">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Common\SSI\Top.ascx.designer.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Common\SSI\Top.ascx.designer.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Common\SSI\Top.ascx.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Common\SSI\Top.ascx.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Application.Designer.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="PricingAnalyst\UpdateDetails.aspx.designer.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\PricingAnalyst\UpdateDetails.aspx.designer.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="PricingAnalyst\UpdateDetails.aspx.vb" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\PricingAnalyst\UpdateDetails.aspx.vb">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Application.myapp" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Settings.settings" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Common\SSI\Top.ascx" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Common\SSI\Top.ascx">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="CSS\MoneyCost.css" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\CSS\MoneyCost.css">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Images\moneyupdate_title.gif" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Images\moneyupdate_title.gif">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Images\top_bar.jpg" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Images\top_bar.jpg">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Images\top_lft.jpg" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Images\top_lft.jpg">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="PricingAnalyst\UpdateDetails.aspx" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\PricingAnalyst\UpdateDetails.aspx">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="Web.config" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\Web.config">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="My Project\Resources.resx" Description="File successfully backed up as C:\StarTeam\MoneyCost\MoneyCostSite\SourceCode_Version2\User Interface\wwwroot\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="MoneyCostWeb.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MoneyCostWeb" Source="MoneyCostWeb.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MoneyCostWeb" Source="MoneyCostWeb.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

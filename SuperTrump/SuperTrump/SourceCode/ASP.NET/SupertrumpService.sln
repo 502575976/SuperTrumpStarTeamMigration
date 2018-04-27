@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessServices", "BusinessServices\BusinessServices.vbproj", "{2CC533CB-4780-419C-96F1-B1FF2C663075}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebServices", "WebServices\WebServices.vbproj", "{AD73021D-9995-4B0D-98E6-0FAEFAEEC389}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = BusinessServices\\BusinessServices.vbproj
+		SccProjectName0 = Supertrump\\SourceCode\\.NET\\BusinessServices
+		SccLocalPath0 = BusinessServices
+		SccProjectUniqueName1 = WebServices\\WebServices.vbproj
+		SccProjectName1 = Supertrump\\SourceCode\\.NET\\WebServices
+		SccLocalPath1 = WebServices
+		SccProjectName2 = Supertrump\\SourceCode\\.NET
+		SccLocalPath2 = .
+		SccProvider2 = MSSCCI:StarTeam
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC533CB-4780-419C-96F1-B1FF2C663075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC533CB-4780-419C-96F1-B1FF2C663075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC533CB-4780-419C-96F1-B1FF2C663075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC533CB-4780-419C-96F1-B1FF2C663075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD73021D-9995-4B0D-98E6-0FAEFAEEC389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD73021D-9995-4B0D-98E6-0FAEFAEEC389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD73021D-9995-4B0D-98E6-0FAEFAEEC389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD73021D-9995-4B0D-98E6-0FAEFAEEC389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
